@@ -1,0 +1,76 @@
+% Patriotic_Camouflage.tex
+% AAAI 2026 format. Ensure aaai2026.sty and aaai2026.bst are in the same directory or in your TeX path.
+\documentclass[letterpaper]{article}
+\usepackage{aaai2026}
+\usepackage{times}
+\usepackage{helvet}
+\usepackage{courier}
+\usepackage[hyphens]{url}
+\usepackage{graphicx}
+\urlstyle{rm}
+\def\UrlFont{\rm}
+\usepackage{natbib}
+\usepackage{caption}
+\frenchspacing
+\setlength{\pdfpagewidth}{8.5in}
+\setlength{\pdfpageheight}{11in}
+\setcounter{secnumdepth}{0}
+
+\pdfinfo{
+/TemplateVersion (2026.1)
+}
+
+\title{Scripted Rage and Patriotic Camouflage: The Algorithmic Commodification of Han Chauvinism in Chinese Platform}
+\author{
+    Junyu Jiang
+}
+\affiliations{
+    Affiliation\\
+    email@example.com
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Under the prevalence of platformization \citep{nieborg2018}, video games have transcended their status as a cultural periphery to emerge as a central arena for ideological contestation \citep{dyer2009}. Against this backdrop, the Chinese digital sphere in 2025 witnessed a unique surge of nationalism characterized by the intertwining of Han chauvinism and virulent anti-Manchu sentiment. This study investigates the discursive storm surrounding the action-RPG Wuchang: Fallen Feathers. To navigate censorship, the developers replaced invading Qing forces with a supernatural plague. Radical nationalists interpreted this removal of the Constitutive Other \citep{hall1996,schmitt1996} as a form of historical nihilism, thereby transforming a commercial product into a target of political scrutiny for national purity.
+
+This study posits a profound intensification in the commodification of Chinese platform nationalism. Within the platform's discursive economy, nationalism has been transmuted from a political stance into a high-arousal digital asset \citep{papacharissi2016}. Consequently, cyber witch-hunts against perceived ideological heretics are a standardized, scripted, and monetizable mode of content production \citep{ritzer2010}.
+\end{abstract}
+
+\section{Introduction}
+
+Thus, we have 2 Research Questions:
+
+\textbf{RQ1:} To what extent does the nationalist discourse surrounding Wuchang exhibit semantic homogenization and affective saturation across different platforms? How do these structural patterns deviate from organic user discussions, indicating a standardized mode of production?
+
+\textbf{RQ2:} How do platform algorithms distribute visibility within this discursive field? Specifically, is there a significant positive correlation between exclusionary framing, high-arousal affect, and user engagement metrics (views, shares, likes)?
+
+\section{Method}
+
+This study adopts a computationally assisted mixed-methods approach. To comprehensively capture the intermedia resonance of nationalist discourse occurring without central coordination, we constructed a multimodal dataset covering three core nodes of the Chinese digital public sphere: 1) BiliBili: As the primary hub for the game's core audience, providing data on long-form video commentary interactions. 2) Douyin (TikTok China): Representing the logic of algorithmic virality and short-form emotional contagion. 3) Zhihu: A Q\&A community serving as a space for the pseudo-intellectual rationalization of nationalist sentiments.
+
+Data collection spans from the game's release on July 24, 2025, to the official apology issued at the end of 2025. Using ``Wuchang'' as the key query, we crawled both video transcripts and associated textual comments.
+
+At the computational level, we employ a RoBERTa pre-trained model for fine-grained Stance Detection, specifically tuned to identify implicit rhetoric of Othering \citep{laclau2005}. Furthermore, to test the industrial script hypothesis in RQ1, we utilize Sentence-BERT to generate high-dimensional semantic embeddings for the corpus. Through K-Means clustering and Cosine Similarity calculations, we visualize the discursive field as a semantic network, aiming to explain the homogenized replication of a few core scripts.
+
+Simultaneously, employing Purposive Sampling, we selected the top 100 high-centrality semantic clusters identified by SBERT to construct a narrative propagation graph. Through manual coding, we traced critical discursive nodes where technical criticism of the product slid into political trials, attempting to pinpoint the precise moment of the decontextualized recombination of cyber-Han nationalist discourse.
+
+\section{Findings}
+
+Based on this, we identify three core discursive mechanisms driving this commodification process:
+
+\textbf{Symbolic Hollowing and Labeling Efficiency:} Complex historical narratives of the Ming-Qing transition are collapsed into binary Floating Signifiers (e.g., Han Chauvinist and Race Traitor). These political terms are stripped of their historical context and semantic nuance, alienated into highly efficient Cognitive Shortcuts. This not only achieves instantaneous classification of dissidents but also significantly lowers the threshold for communication, accelerating the diffusion of adversarial information.
+
+\textbf{Narrative Scripting and Industrial Reproduction:} Cyber witch-hunting follows a reusable industrial script. We uncovered a highly homogenized structural template: 1) Triggering and identifying superficial anomalies. 2) Framing and fabricating evidence \& decontextualization. 3) Moral Conviction and political labeling. This standardized workflow minimizes the cognitive cost of content production, allowing hate speech to be manufactured and distributed like industrial goods.
+
+\textbf{Affective Inflation and Moral Escalation:} To compete for visibility in an overcrowded attention economy, consumer dissatisfaction with game mechanics is rhetorically elevated to an Ontological Threat against national dignity. This strategy of affective inflation bypasses rational public deliberation to maximize engagement metrics.
+
+\section{Discussion and Conclusion}
+
+Our findings suggest that the nationalist outcry was a product of algorithmic industrialization. However, the most profound implication lies in revealing a structural blind spot within the Chinese digital censorship apparatus. The proliferation of radical Han Chauvinism is facilitated by a deceptive discursive camouflage. Because this specific brand of ethno-nationalism mimics the aesthetic and rhetorical shell of state-sanctioned patriotism, it enjoys safe harbor status. Algorithms and moderators, conflating mob aggression with ideological loyalty, have allowed an exclusionary Han-centric fundamentalism to incubate, ultimately drowning out moderate discourse in a sea of commodified rage.
+
+\bibliography{Patriotic_Camouflage}
+
+\end{document}

@@ -1,0 +1,30 @@
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.eggs/
+*.egg
+
+# 环境变量与密钥（勿上传）
+.env
+.env.local
+*.env
+
+# 爬虫生成的数据与缓存（按需保留或忽略）
+data/
+*.csv
+MediaCrawler-main/MediaCrawler-main/data/
+*_user_data_dir/
+
+# IDE / 系统
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
