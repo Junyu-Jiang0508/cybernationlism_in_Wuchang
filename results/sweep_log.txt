@@ -1,0 +1,26 @@
+样本数 n=30000  MiniLM shape=(30000, 384)  text2vec shape=(30000, 768)
+PCA 固定维数=50（KMeans/DBSCAN）
+
+=== minilm ===
+  [minilm] PCA 1..80: 累计达 80% 约需 65 维 （80 维累计=0.8499）
+  （参考）80% 方差约 65 维，见 pca_variance_minilm.csv
+  KMeans k=10: Silhouette=0.0624 DBI=3.0235 max/min_size=6.06 t=2.0s
+  KMeans k=20: Silhouette=0.0486 DBI=2.9400 max/min_size=4.04 t=0.9s
+  KMeans k=50: Silhouette=0.0415 DBI=2.8484 max/min_size=12.42 t=1.9s
+  KMeans k=100: Silhouette=0.0354 DBI=2.8385 max/min_size=24.20 t=4.3s
+  → 最优 k=10（按 Silhouette），已写 labels_minilm_best.npy
+  DBSCAN min_samples=5: eps=1.240748 n_clusters=68 noise=90.40% max_cluster=2007 t=0.4s
+  DBSCAN min_samples=10: eps=1.318219 n_clusters=22 noise=88.99% max_cluster=2764 t=0.4s
+
+=== text2vec ===
+  [text2vec] PCA 1..80: 前 80 维累计方差未达 80% （最大累计=0.6181，见 CSV）
+  （参考）80% 方差约 80 维，见 pca_variance_text2vec.csv
+  KMeans k=10: Silhouette=0.0152 DBI=3.5253 max/min_size=2.53 t=0.8s
+  KMeans k=20: Silhouette=0.0242 DBI=3.1754 max/min_size=7.13 t=1.0s
+  KMeans k=50: Silhouette=0.0213 DBI=3.0451 max/min_size=19.91 t=2.1s
+  KMeans k=100: Silhouette=0.0194 DBI=3.0168 max/min_size=10.55 t=4.0s
+  → 最优 k=20（按 Silhouette），已写 labels_text2vec_best.npy
+  DBSCAN min_samples=5: eps=5.003985 n_clusters=70 noise=92.00% max_cluster=1645 t=0.4s
+  DBSCAN min_samples=10: eps=5.285015 n_clusters=25 noise=89.89% max_cluster=2575 t=0.4s
+
+已写入 C:\Users\Jain Farstrider\Desktop\COG181\Final_Project\results\sweep_results.csv

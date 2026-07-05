@@ -76,6 +76,10 @@ SAVE_DATA_OPTION = "jsonl"  # csv or db or json or jsonl or sqlite or excel or p
 # Data saving path, if not specified by default, it will be saved to the data folder.
 SAVE_DATA_PATH = ""
 
+# When True and SAVE_DATA_PATH is set: save under SAVE_DATA_PATH/platform only (no file_type subfolder),
+# and use fixed filename without date so all runs append to the same file.
+SAVE_DATA_FLAT = False
+
 # Browser file configuration cached by the user's browser
 USER_DATA_DIR = "%s_user_data_dir"  # %s will be replaced by platform name
 

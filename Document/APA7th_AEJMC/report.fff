@@ -1,0 +1,68 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[t]
+\centering
+\includegraphics[width=\linewidth]{fig1_hyperparam_heatmap.png}
+\caption{Hyperparameter search: macro-F1 by learning rate and epoch count for RoBERTa (Fold 0, MAX\_LEN = 128). Warmer colors indicate higher F1. The lr = 3e-5, ep = 3 configuration achieves the highest single-fold F1 of 0.6301.}
+\label{fig:heatmap}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[t]
+\centering
+\includegraphics[width=\linewidth]{fig2_model_boxplot.png}
+\caption{5-fold cross-validation macro-F1 distribution across three architectures (RoBERTa, BERT, MacBERT) for the best configuration per model. RoBERTa achieves consistently higher median F1 with lower variance.}
+\label{fig:model_comparison}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[t]
+\centering
+\includegraphics[width=\linewidth]{fig4_maxlen_ablation.png}
+\caption{MAX\_LEN ablation: per-class F1 for Type 2 (Politicized) across 5 folds for MAX\_LEN = 128 (blue) and MAX\_LEN = 256 (orange). Extending the context window recovers truncated rhetorical markers in longer politicized comments.}
+\label{fig:maxlen_ablation}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[t]
+\centering
+\includegraphics[width=\linewidth]{fig3_confusion_matrix.png}
+\caption{Confusion matrix of the best RoBERTa model (MAX\_LEN = 256, lr = 3e-5, ep = 3) on Fold 0. Main confusions occur between Type 1 (Emotional) and Type 2 (Politicized), and between Type 2 and Type 4 (Neutral/Analytic).}
+\label{fig:confusion}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[t]
+\centering
+\includegraphics[width=\linewidth]{fig5_cluster_discourse.png}
+\caption{Cluster composition by predicted discourse type (KMeans $k=10$, MiniLM embeddings). Cluster 6 shows the highest Type 2+3 concentration at 46.2\%, 3.9$\times$ the corpus baseline.}
+\label{fig:cluster_composition}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[b]
+\centering
+\includegraphics[width=0.95\linewidth]{fig7_tsne.png}
+\caption{t-SNE of SBERT embeddings colored by predicted discourse type. Types 2+3 show partial clustering but no clean separation, consistent with the low NMI (0.089).}
+\label{fig:tsne}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[t]
+\centering
+\includegraphics[width=\linewidth]{fig6_likes_boxplot.png}
+\caption{Distribution of $\log(1 + \text{likes})$ by predicted discourse type. Types 2 and 4 share nearly identical medians (= 6), while Type 0 (Game Review) has the lowest median (= 1). The algorithm does not appear to distinguish political from analytical content.}
+\label{fig:likes_boxplot}
+\end{figure*}

@@ -1,0 +1,22 @@
+
+=== RQ2 分析汇总（修复版）===
+
+[Winsorize 上限] 3511
+
+[Kruskal-Wallis]
+H=1513.4646, p=0.00e+00
+Bonferroni 显著对数: 7/10
+
+[OLS 回归模型2 — 各类型 vs type0]
+is_nationalist beta=0.5738, p=0.0000
+
+[点赞中位数排序]
+  type4 Neutral/Analytic: median=6
+  type2 Politicized: median=6
+  type3 Nationalist: median=5
+  type0 Game Review: median=1
+  type1 Emotional: median=2
+
+[核心发现]
+算法奖励"有实质观点内容"（type1-4）vs 纯产品评价（type0），
+而非特定意识形态方向（type2/3 vs type4 无显著差异）。

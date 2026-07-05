@@ -1,0 +1,194 @@
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[t]
+\centering
+\caption{Annotation distribution in Sample B (n = 1,931, after removing type = 99). Training set over-represents Type 2 due to keyword-pool sampling; the random-subsample ground-truth (n = 743) shows Type 2 prevalence of 15.2\%.}
+\label{tab:annotation}
+\begin{tabular}{llrr}
+\toprule
+Type & Description & Count & \% \\
+\midrule
+0 & Pure Game Review & 440 & 22.8 \\
+1 & Emotional, Non-Political & 315 & 16.3 \\
+2 & Politicized Game Criticism & 739 & 38.3 \\
+3 & Explicit Nationalism & 149 & 7.7 \\
+4 & Neutral/Analytic & 288 & 14.9 \\
+\midrule
+Total & & 1,931 & 100.0 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[t]
+\centering
+\caption{Round 1 hyperparameter search: top 7 configurations (Fold 0, MAX\_LEN = 128). RoBERTa occupies 7 of the top 10 positions.}
+\label{tab:round1_top}
+\begin{tabular}{clccc}
+\toprule
+Rank & Model & LR & Epochs & F1 (macro) \\
+\midrule
+1 & RoBERTa & 3e-5 & 3 & 0.6301 \\
+2 & RoBERTa & 1e-5 & 8 & 0.6249 \\
+3 & BERT    & 3e-5 & 5 & 0.6225 \\
+4 & RoBERTa & 2e-5 & 3 & 0.6197 \\
+5 & RoBERTa & 1e-5 & 5 & 0.6175 \\
+6 & RoBERTa & 3e-5 & 5 & 0.6155 \\
+7 & MacBERT & 5e-5 & 3 & 0.6150 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[tp]
+\centering
+\caption{5-fold CV results: MAX\_LEN = 128 vs.\ 256 (RoBERTa, lr = 3e-5, 3 epochs). Type 2 per-class F1 per fold.}
+\label{tab:maxlen_ablation}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lcccccccc}
+\toprule
+\multirow{2}{*}{MAX\_LEN} & \multirow{2}{*}{Mean F1} & \multirow{2}{*}{Std} & \multicolumn{5}{c}{Type 2 F1 per Fold} \\
+\cmidrule(lr){4-8}
+ & & & F0 & F1 & F2 & F3 & F4 \\
+\midrule
+128 & 0.6021 & 0.036 & 0.686 & 0.684 & 0.649 & 0.649 & 0.682 \\
+256 & 0.6151 & 0.035 & 0.676 & 0.692 & 0.719 & 0.654 & 0.731 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[b]
+\centering
+\caption{Binary vs.\ 5-class classification comparison (RoBERTa, lr = 3e-5, 3 epochs, MAX\_LEN = 128, 5-fold CV).}
+\label{tab:binary}
+\begin{tabular}{lccc}
+\toprule
+Task & Classes & Mean F1 & Std \\
+\midrule
+Multi-class & 5 (Types 0--4)         & 0.6021 & 0.036 \\
+Binary      & 2 (Nationalist vs.\ Not) & 0.8214 & 0.014 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[t]
+\centering
+\caption{Predicted discourse-type distribution over Sample A (n = 30,000), best RoBERTa model, MAX\_LEN = 256. Mean softmax confidence = 0.7723.}
+\label{tab:inference}
+\begin{tabular}{llrr}
+\toprule
+Type & Description & Count & \% \\
+\midrule
+0 & Game Review & 12,732 & 42.4 \\
+1 & Emotional & 7,898 & 26.3 \\
+2 & Politicized & 2,862 & 9.5 \\
+3 & Nationalist & 669 & 2.2 \\
+4 & Neutral/Analytic & 5,839 & 19.5 \\
+\midrule
+Total & & 30,000 & 100.0 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[t]
+\centering
+\caption{Cluster $\times$ discourse type cross-tabulation (KMeans $k=10$, MiniLM). Clusters sorted by Type 2+3 concentration. NMI = 0.0888, ARI = 0.0414, Homogeneity = 0.0708.}
+\label{tab:cluster_cross}
+\begin{tabular}{rrrrrrrr}
+\toprule
+Cluster & $n$ & T0 & T1 & T2 & T3 & T4 & T2+3\% \\
+\midrule
+6 & 1,428 & 229 & 88 & 501 & 158 & 452 & 46.2 \\
+7 & 3,291 & 416 & 890 & 791 & 108 & 1,086 & 27.3 \\
+0 & 3,352 & 1,478 & 586 & 330 & 110 & 848 & 13.1 \\
+2 & 6,218 & 2,177 & 2,475 & 695 & 27 & 844 & 11.6 \\
+3 & 1,026 & 653 & 223 & 28 & 28 & 94 & 5.5 \\
+9 & 2,213 & 1,530 & 485 & 71 & 26 & 101 & 4.4 \\
+5 & 4,187 & 2,954 & 718 & 75 & 95 & 345 & 4.1 \\
+4 & 3,955 & 1,716 & 1,934 & 71 & 61 & 173 & 3.3 \\
+1 & 1,216 & 715 & 218 & 27 & 5 & 251 & 2.6 \\
+8 & 3,114 & 2,046 & 672 & 35 & 7 & 354 & 1.3 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[t]
+\centering
+\caption{Intra-class vs.\ cross-class cosine similarity by discourse type. Cross-class mean = 0.2893. Type 2 shows the highest intra-class cohesion.}
+\label{tab:cosine}
+\begin{tabular}{llrrrr}
+\toprule
+Type & Name & $n$ & Intra & $\Delta$ vs.\ cross \\
+\midrule
+0 & Game Review & 13,914 & 0.2929 & +0.0036 \\
+1 & Emotional & 8,289 & 0.3448 & +0.0555 \\
+2 & Politicized & 2,624 & 0.3501 & +0.0608 \\
+3 & Nationalist & 625 & 0.3394 & +0.0501 \\
+4 & Neutral/Analytic & 4,548 & 0.2853 & $-$0.0040 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[t]
+\centering
+\caption{Kruskal-Wallis pairwise comparisons (Mann-Whitney U, Bonferroni-corrected $\alpha' = 0.005$). Rank-biserial correlation $r$ reported as effect size. 7/10 pairs are Bonferroni-significant.}
+\label{tab:kruskal}
+\begin{tabular}{llrrl}
+\toprule
+Group i & Group j & $p$-value & $r$ & Bonf.\ sig. \\
+\midrule
+Game Rev. (0) & Emotional (1) & $< 0.001$ & +0.124 & *** \\
+Game Rev. (0) & Politicized (2) & $< 0.001$ & +0.332 & *** \\
+Game Rev. (0) & Nationalist (3) & $< 0.001$ & +0.274 & *** \\
+Game Rev. (0) & Neutral (4) & $< 0.001$ & +0.301 & *** \\
+Emotional (1) & Politicized (2) & $< 0.001$ & +0.217 & *** \\
+Emotional (1) & Nationalist (3) & $< 0.001$ & +0.154 & *** \\
+Emotional (1) & Neutral (4) & $< 0.001$ & +0.193 & *** \\
+Politicized (2) & Nationalist (3) & 0.006 & $-$0.071 & ns \\
+Politicized (2) & Neutral (4) & 0.574 & $-$0.008 & ns \\
+Nationalist (3) & Neutral (4) & 0.022 & +0.056 & ns \\
+\bottomrule
+\end{tabular}
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[t]
+\centering
+\caption{OLS regression: $\log(1 + \text{likes})$ on discourse type (reference = Type 0). HC3 robust SE. $n = 30{,}000$, $R^2 = 0.034$. Exponentiated coefficients give multiplicative like-count multipliers relative to Type 0 baseline (intercept $= 1.566$).}
+\label{tab:regression}
+\begin{tabular}{lrrrr}
+\toprule
+Variable & $\hat{\beta}$ & SE & $z$ & $p$ \\
+\midrule
+Intercept (Type 0) & 1.566 & 0.017 & 93.69 & $<$0.001 \\
+Type 1 (Emotional) & +0.279 & 0.027 & 10.32 & $<$0.001 \\
+Type 2 (Politicized) & +0.870 & 0.041 & 21.36 & $<$0.001 \\
+Type 3 (Nationalist) & +0.628 & 0.075 & 8.34 & $<$0.001 \\
+Type 4 (Neutral/Analytic) & +0.959 & 0.036 & 26.53 & $<$0.001 \\
+\midrule
+\multicolumn{5}{l}{$R^2 = 0.034$; Durbin-Watson $= 0.140$; Winsorize cap $= 3{,}511$} \\
+\bottomrule
+\end{tabular}
+\end{table*}

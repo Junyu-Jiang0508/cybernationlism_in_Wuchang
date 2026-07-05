@@ -1,0 +1,5618 @@
+[
+  {
+    "model": "bert",
+    "hf_id": "bert-base-chinese",
+    "fold": 0,
+    "lr": 1e-05,
+    "epochs": 3,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.5231,
+    "val_acc": 0.5711,
+    "val_f1_weighted": 0.5697,
+    "per_class_f1": {
+      "type0_game": 0.7416,
+      "type1_emotional": 0.3934,
+      "type2_political": 0.6434,
+      "type3_nationalist": 0.4773,
+      "type4_neutral": 0.36
+    },
+    "confusion_matrix": [
+      [
+        66,
+        18,
+        2,
+        0,
+        2
+      ],
+      [
+        17,
+        24,
+        11,
+        2,
+        9
+      ],
+      [
+        4,
+        9,
+        92,
+        30,
+        13
+      ],
+      [
+        0,
+        0,
+        9,
+        21,
+        0
+      ],
+      [
+        3,
+        8,
+        24,
+        5,
+        18
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.58807,
+        "val_loss": 1.38322,
+        "val_acc": 0.4625,
+        "val_f1_macro": 0.4105,
+        "val_f1_weighted": 0.4711
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.33646,
+        "val_loss": 1.20752,
+        "val_acc": 0.553,
+        "val_f1_macro": 0.507,
+        "val_f1_weighted": 0.5537
+      },
+      {
+        "epoch": 3,
+        "train_loss": 1.15715,
+        "val_loss": 1.14321,
+        "val_acc": 0.5711,
+        "val_f1_macro": 0.5231,
+        "val_f1_weighted": 0.5697
+      }
+    ],
+    "elapsed_seconds": 61.4,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "bert",
+    "hf_id": "bert-base-chinese",
+    "fold": 0,
+    "lr": 1e-05,
+    "epochs": 5,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.578,
+    "val_acc": 0.6047,
+    "val_f1_weighted": 0.6102,
+    "per_class_f1": {
+      "type0_game": 0.7614,
+      "type1_emotional": 0.4677,
+      "type2_political": 0.6464,
+      "type3_nationalist": 0.5301,
+      "type4_neutral": 0.4844
+    },
+    "confusion_matrix": [
+      [
+        67,
+        12,
+        1,
+        1,
+        7
+      ],
+      [
+        14,
+        29,
+        8,
+        5,
+        7
+      ],
+      [
+        3,
+        13,
+        85,
+        23,
+        24
+      ],
+      [
+        0,
+        1,
+        6,
+        22,
+        1
+      ],
+      [
+        4,
+        6,
+        15,
+        2,
+        31
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.47921,
+        "val_loss": 1.24368,
+        "val_acc": 0.5168,
+        "val_f1_macro": 0.4563,
+        "val_f1_weighted": 0.5136
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.13803,
+        "val_loss": 1.02937,
+        "val_acc": 0.553,
+        "val_f1_macro": 0.5078,
+        "val_f1_weighted": 0.5536
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.88873,
+        "val_loss": 0.94422,
+        "val_acc": 0.5969,
+        "val_f1_macro": 0.5666,
+        "val_f1_weighted": 0.6017
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.73592,
+        "val_loss": 0.92482,
+        "val_acc": 0.6047,
+        "val_f1_macro": 0.578,
+        "val_f1_weighted": 0.6102
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.63421,
+        "val_loss": 0.92964,
+        "val_acc": 0.5995,
+        "val_f1_macro": 0.5695,
+        "val_f1_weighted": 0.5994
+      }
+    ],
+    "elapsed_seconds": 105.9,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "bert",
+    "hf_id": "bert-base-chinese",
+    "fold": 0,
+    "lr": 1e-05,
+    "epochs": 8,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.5933,
+    "val_acc": 0.6253,
+    "val_f1_weighted": 0.6314,
+    "per_class_f1": {
+      "type0_game": 0.747,
+      "type1_emotional": 0.4737,
+      "type2_political": 0.6931,
+      "type3_nationalist": 0.5301,
+      "type4_neutral": 0.5224
+    },
+    "confusion_matrix": [
+      [
+        62,
+        13,
+        1,
+        2,
+        10
+      ],
+      [
+        12,
+        27,
+        9,
+        4,
+        11
+      ],
+      [
+        3,
+        8,
+        96,
+        22,
+        19
+      ],
+      [
+        0,
+        0,
+        7,
+        22,
+        1
+      ],
+      [
+        1,
+        3,
+        16,
+        3,
+        35
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.56342,
+        "val_loss": 1.3661,
+        "val_acc": 0.5401,
+        "val_f1_macro": 0.4479,
+        "val_f1_weighted": 0.5294
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.28038,
+        "val_loss": 1.08814,
+        "val_acc": 0.5607,
+        "val_f1_macro": 0.5244,
+        "val_f1_weighted": 0.5592
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.99077,
+        "val_loss": 0.97655,
+        "val_acc": 0.6124,
+        "val_f1_macro": 0.5719,
+        "val_f1_weighted": 0.6104
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.76504,
+        "val_loss": 0.97498,
+        "val_acc": 0.6253,
+        "val_f1_macro": 0.5933,
+        "val_f1_weighted": 0.6314
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.5917,
+        "val_loss": 0.98068,
+        "val_acc": 0.6253,
+        "val_f1_macro": 0.5909,
+        "val_f1_weighted": 0.6313
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.44586,
+        "val_loss": 1.02976,
+        "val_acc": 0.6253,
+        "val_f1_macro": 0.5917,
+        "val_f1_weighted": 0.6322
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.3825,
+        "val_loss": 1.07015,
+        "val_acc": 0.6357,
+        "val_f1_macro": 0.5907,
+        "val_f1_weighted": 0.6384
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.32246,
+        "val_loss": 1.06631,
+        "val_acc": 0.6253,
+        "val_f1_macro": 0.5824,
+        "val_f1_weighted": 0.6295
+      }
+    ],
+    "elapsed_seconds": 169.8,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "bert",
+    "hf_id": "bert-base-chinese",
+    "fold": 0,
+    "lr": 1e-05,
+    "epochs": 10,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.5956,
+    "val_acc": 0.6434,
+    "val_f1_weighted": 0.6449,
+    "per_class_f1": {
+      "type0_game": 0.7529,
+      "type1_emotional": 0.544,
+      "type2_political": 0.709,
+      "type3_nationalist": 0.4375,
+      "type4_neutral": 0.5345
+    },
+    "confusion_matrix": [
+      [
+        64,
+        14,
+        4,
+        0,
+        6
+      ],
+      [
+        13,
+        34,
+        7,
+        3,
+        6
+      ],
+      [
+        3,
+        9,
+        106,
+        17,
+        13
+      ],
+      [
+        0,
+        1,
+        13,
+        14,
+        2
+      ],
+      [
+        2,
+        4,
+        21,
+        0,
+        31
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.61885,
+        "val_loss": 1.43136,
+        "val_acc": 0.4057,
+        "val_f1_macro": 0.3831,
+        "val_f1_weighted": 0.4127
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.24868,
+        "val_loss": 1.08829,
+        "val_acc": 0.5659,
+        "val_f1_macro": 0.5503,
+        "val_f1_weighted": 0.5809
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.91887,
+        "val_loss": 0.94908,
+        "val_acc": 0.5943,
+        "val_f1_macro": 0.5717,
+        "val_f1_weighted": 0.6051
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.70037,
+        "val_loss": 0.94597,
+        "val_acc": 0.5943,
+        "val_f1_macro": 0.5701,
+        "val_f1_weighted": 0.6046
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.51453,
+        "val_loss": 0.95001,
+        "val_acc": 0.615,
+        "val_f1_macro": 0.5777,
+        "val_f1_weighted": 0.6221
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.39428,
+        "val_loss": 1.03057,
+        "val_acc": 0.6227,
+        "val_f1_macro": 0.5736,
+        "val_f1_weighted": 0.6245
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.29274,
+        "val_loss": 1.05344,
+        "val_acc": 0.6279,
+        "val_f1_macro": 0.5917,
+        "val_f1_weighted": 0.6348
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.22376,
+        "val_loss": 1.14492,
+        "val_acc": 0.6176,
+        "val_f1_macro": 0.5685,
+        "val_f1_weighted": 0.619
+      },
+      {
+        "epoch": 9,
+        "train_loss": 0.18211,
+        "val_loss": 1.16831,
+        "val_acc": 0.6202,
+        "val_f1_macro": 0.5741,
+        "val_f1_weighted": 0.6229
+      },
+      {
+        "epoch": 10,
+        "train_loss": 0.16242,
+        "val_loss": 1.18145,
+        "val_acc": 0.6434,
+        "val_f1_macro": 0.5956,
+        "val_f1_weighted": 0.6449
+      }
+    ],
+    "elapsed_seconds": 212.4,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "bert",
+    "hf_id": "bert-base-chinese",
+    "fold": 0,
+    "lr": 2e-05,
+    "epochs": 3,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.5914,
+    "val_acc": 0.6176,
+    "val_f1_weighted": 0.6216,
+    "per_class_f1": {
+      "type0_game": 0.7598,
+      "type1_emotional": 0.5303,
+      "type2_political": 0.634,
+      "type3_nationalist": 0.48,
+      "type4_neutral": 0.5528
+    },
+    "confusion_matrix": [
+      [
+        68,
+        13,
+        1,
+        0,
+        6
+      ],
+      [
+        12,
+        35,
+        8,
+        2,
+        6
+      ],
+      [
+        7,
+        15,
+        84,
+        25,
+        17
+      ],
+      [
+        0,
+        2,
+        8,
+        18,
+        2
+      ],
+      [
+        4,
+        4,
+        16,
+        0,
+        34
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.43807,
+        "val_loss": 1.12389,
+        "val_acc": 0.491,
+        "val_f1_macro": 0.4715,
+        "val_f1_weighted": 0.4931
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.04112,
+        "val_loss": 0.97871,
+        "val_acc": 0.5504,
+        "val_f1_macro": 0.5364,
+        "val_f1_weighted": 0.5554
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.75778,
+        "val_loss": 0.94037,
+        "val_acc": 0.6176,
+        "val_f1_macro": 0.5914,
+        "val_f1_weighted": 0.6216
+      }
+    ],
+    "elapsed_seconds": 63.9,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "bert",
+    "hf_id": "bert-base-chinese",
+    "fold": 0,
+    "lr": 2e-05,
+    "epochs": 5,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.6048,
+    "val_acc": 0.6382,
+    "val_f1_weighted": 0.6406,
+    "per_class_f1": {
+      "type0_game": 0.7765,
+      "type1_emotional": 0.5691,
+      "type2_political": 0.6757,
+      "type3_nationalist": 0.5152,
+      "type4_neutral": 0.4874
+    },
+    "confusion_matrix": [
+      [
+        66,
+        11,
+        3,
+        0,
+        8
+      ],
+      [
+        9,
+        35,
+        11,
+        2,
+        6
+      ],
+      [
+        5,
+        10,
+        100,
+        17,
+        16
+      ],
+      [
+        0,
+        1,
+        10,
+        17,
+        2
+      ],
+      [
+        2,
+        3,
+        24,
+        0,
+        29
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.46609,
+        "val_loss": 1.1156,
+        "val_acc": 0.5168,
+        "val_f1_macro": 0.4934,
+        "val_f1_weighted": 0.5327
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.00633,
+        "val_loss": 0.96303,
+        "val_acc": 0.5969,
+        "val_f1_macro": 0.5707,
+        "val_f1_weighted": 0.6056
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.64872,
+        "val_loss": 0.95366,
+        "val_acc": 0.6227,
+        "val_f1_macro": 0.5861,
+        "val_f1_weighted": 0.6272
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.39372,
+        "val_loss": 1.02985,
+        "val_acc": 0.6357,
+        "val_f1_macro": 0.5967,
+        "val_f1_weighted": 0.6388
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.27213,
+        "val_loss": 1.08024,
+        "val_acc": 0.6382,
+        "val_f1_macro": 0.6048,
+        "val_f1_weighted": 0.6406
+      }
+    ],
+    "elapsed_seconds": 106.4,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "bert",
+    "hf_id": "bert-base-chinese",
+    "fold": 0,
+    "lr": 2e-05,
+    "epochs": 8,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.5785,
+    "val_acc": 0.6305,
+    "val_f1_weighted": 0.6251,
+    "per_class_f1": {
+      "type0_game": 0.7571,
+      "type1_emotional": 0.4912,
+      "type2_political": 0.6921,
+      "type3_nationalist": 0.4762,
+      "type4_neutral": 0.4762
+    },
+    "confusion_matrix": [
+      [
+        67,
+        11,
+        6,
+        0,
+        4
+      ],
+      [
+        13,
+        28,
+        13,
+        2,
+        7
+      ],
+      [
+        4,
+        8,
+        109,
+        16,
+        11
+      ],
+      [
+        0,
+        1,
+        14,
+        15,
+        0
+      ],
+      [
+        5,
+        3,
+        25,
+        0,
+        25
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.4983,
+        "val_loss": 1.20431,
+        "val_acc": 0.5556,
+        "val_f1_macro": 0.4623,
+        "val_f1_weighted": 0.5345
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.08165,
+        "val_loss": 0.98218,
+        "val_acc": 0.5917,
+        "val_f1_macro": 0.5566,
+        "val_f1_weighted": 0.5905
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.68895,
+        "val_loss": 1.01808,
+        "val_acc": 0.6202,
+        "val_f1_macro": 0.5593,
+        "val_f1_weighted": 0.6147
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.42046,
+        "val_loss": 1.09443,
+        "val_acc": 0.615,
+        "val_f1_macro": 0.5595,
+        "val_f1_weighted": 0.6126
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.23343,
+        "val_loss": 1.26613,
+        "val_acc": 0.6357,
+        "val_f1_macro": 0.5775,
+        "val_f1_weighted": 0.629
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.15187,
+        "val_loss": 1.42583,
+        "val_acc": 0.6357,
+        "val_f1_macro": 0.5662,
+        "val_f1_weighted": 0.626
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.09629,
+        "val_loss": 1.51534,
+        "val_acc": 0.6253,
+        "val_f1_macro": 0.5628,
+        "val_f1_weighted": 0.6145
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.05856,
+        "val_loss": 1.52328,
+        "val_acc": 0.6305,
+        "val_f1_macro": 0.5785,
+        "val_f1_weighted": 0.6251
+      }
+    ],
+    "elapsed_seconds": 170.1,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "bert",
+    "hf_id": "bert-base-chinese",
+    "fold": 0,
+    "lr": 2e-05,
+    "epochs": 10,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.5955,
+    "val_acc": 0.6279,
+    "val_f1_weighted": 0.6325,
+    "per_class_f1": {
+      "type0_game": 0.763,
+      "type1_emotional": 0.547,
+      "type2_political": 0.6667,
+      "type3_nationalist": 0.4828,
+      "type4_neutral": 0.5179
+    },
+    "confusion_matrix": [
+      [
+        66,
+        10,
+        3,
+        1,
+        8
+      ],
+      [
+        11,
+        32,
+        11,
+        3,
+        6
+      ],
+      [
+        5,
+        9,
+        95,
+        30,
+        9
+      ],
+      [
+        0,
+        0,
+        7,
+        21,
+        2
+      ],
+      [
+        3,
+        3,
+        21,
+        2,
+        29
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.55186,
+        "val_loss": 1.29207,
+        "val_acc": 0.4212,
+        "val_f1_macro": 0.3199,
+        "val_f1_weighted": 0.3672
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.08781,
+        "val_loss": 1.00062,
+        "val_acc": 0.584,
+        "val_f1_macro": 0.5582,
+        "val_f1_weighted": 0.5937
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.75244,
+        "val_loss": 0.9903,
+        "val_acc": 0.6072,
+        "val_f1_macro": 0.5584,
+        "val_f1_weighted": 0.604
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.44674,
+        "val_loss": 1.03856,
+        "val_acc": 0.6279,
+        "val_f1_macro": 0.5955,
+        "val_f1_weighted": 0.6325
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.24387,
+        "val_loss": 1.26379,
+        "val_acc": 0.6305,
+        "val_f1_macro": 0.5892,
+        "val_f1_weighted": 0.6303
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.14008,
+        "val_loss": 1.54548,
+        "val_acc": 0.6331,
+        "val_f1_macro": 0.5779,
+        "val_f1_weighted": 0.6278
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.08647,
+        "val_loss": 1.89243,
+        "val_acc": 0.6382,
+        "val_f1_macro": 0.5727,
+        "val_f1_weighted": 0.628
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.07275,
+        "val_loss": 1.84322,
+        "val_acc": 0.6305,
+        "val_f1_macro": 0.5881,
+        "val_f1_weighted": 0.6304
+      },
+      {
+        "epoch": 9,
+        "train_loss": 0.04496,
+        "val_loss": 1.96176,
+        "val_acc": 0.6357,
+        "val_f1_macro": 0.5774,
+        "val_f1_weighted": 0.6294
+      },
+      {
+        "epoch": 10,
+        "train_loss": 0.03577,
+        "val_loss": 1.99856,
+        "val_acc": 0.6382,
+        "val_f1_macro": 0.5838,
+        "val_f1_weighted": 0.6328
+      }
+    ],
+    "elapsed_seconds": 216.2,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "bert",
+    "hf_id": "bert-base-chinese",
+    "fold": 0,
+    "lr": 3e-05,
+    "epochs": 3,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.5761,
+    "val_acc": 0.615,
+    "val_f1_weighted": 0.6202,
+    "per_class_f1": {
+      "type0_game": 0.7081,
+      "type1_emotional": 0.4918,
+      "type2_political": 0.6806,
+      "type3_nationalist": 0.4286,
+      "type4_neutral": 0.5714
+    },
+    "confusion_matrix": [
+      [
+        57,
+        16,
+        3,
+        1,
+        11
+      ],
+      [
+        11,
+        30,
+        9,
+        4,
+        9
+      ],
+      [
+        4,
+        10,
+        98,
+        20,
+        16
+      ],
+      [
+        0,
+        0,
+        14,
+        15,
+        1
+      ],
+      [
+        1,
+        3,
+        16,
+        0,
+        38
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.48281,
+        "val_loss": 1.10723,
+        "val_acc": 0.5271,
+        "val_f1_macro": 0.5021,
+        "val_f1_weighted": 0.5157
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.96423,
+        "val_loss": 0.95702,
+        "val_acc": 0.584,
+        "val_f1_macro": 0.561,
+        "val_f1_weighted": 0.5942
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.58908,
+        "val_loss": 0.9642,
+        "val_acc": 0.615,
+        "val_f1_macro": 0.5761,
+        "val_f1_weighted": 0.6202
+      }
+    ],
+    "elapsed_seconds": 64.7,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "bert",
+    "hf_id": "bert-base-chinese",
+    "fold": 0,
+    "lr": 3e-05,
+    "epochs": 5,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.6225,
+    "val_acc": 0.6615,
+    "val_f1_weighted": 0.6595,
+    "per_class_f1": {
+      "type0_game": 0.8,
+      "type1_emotional": 0.4952,
+      "type2_political": 0.7021,
+      "type3_nationalist": 0.5352,
+      "type4_neutral": 0.5802
+    },
+    "confusion_matrix": [
+      [
+        74,
+        7,
+        2,
+        0,
+        5
+      ],
+      [
+        17,
+        26,
+        7,
+        3,
+        10
+      ],
+      [
+        4,
+        6,
+        99,
+        19,
+        20
+      ],
+      [
+        0,
+        1,
+        10,
+        19,
+        0
+      ],
+      [
+        2,
+        2,
+        16,
+        0,
+        38
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.39679,
+        "val_loss": 1.06898,
+        "val_acc": 0.5116,
+        "val_f1_macro": 0.4871,
+        "val_f1_weighted": 0.4857
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.9488,
+        "val_loss": 0.95456,
+        "val_acc": 0.6202,
+        "val_f1_macro": 0.5551,
+        "val_f1_weighted": 0.602
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.57256,
+        "val_loss": 0.96945,
+        "val_acc": 0.6615,
+        "val_f1_macro": 0.6225,
+        "val_f1_weighted": 0.6595
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.30646,
+        "val_loss": 1.13104,
+        "val_acc": 0.6253,
+        "val_f1_macro": 0.5943,
+        "val_f1_weighted": 0.6283
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.14509,
+        "val_loss": 1.22184,
+        "val_acc": 0.6253,
+        "val_f1_macro": 0.5815,
+        "val_f1_weighted": 0.6252
+      }
+    ],
+    "elapsed_seconds": 107.9,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "bert",
+    "hf_id": "bert-base-chinese",
+    "fold": 0,
+    "lr": 3e-05,
+    "epochs": 8,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.5931,
+    "val_acc": 0.6408,
+    "val_f1_weighted": 0.6362,
+    "per_class_f1": {
+      "type0_game": 0.7553,
+      "type1_emotional": 0.4771,
+      "type2_political": 0.6939,
+      "type3_nationalist": 0.4746,
+      "type4_neutral": 0.5645
+    },
+    "confusion_matrix": [
+      [
+        71,
+        9,
+        4,
+        0,
+        4
+      ],
+      [
+        15,
+        26,
+        12,
+        2,
+        8
+      ],
+      [
+        8,
+        8,
+        102,
+        13,
+        17
+      ],
+      [
+        0,
+        1,
+        13,
+        14,
+        2
+      ],
+      [
+        6,
+        2,
+        15,
+        0,
+        35
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.48743,
+        "val_loss": 1.26494,
+        "val_acc": 0.4289,
+        "val_f1_macro": 0.3993,
+        "val_f1_weighted": 0.4206
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.02932,
+        "val_loss": 1.02172,
+        "val_acc": 0.5788,
+        "val_f1_macro": 0.5537,
+        "val_f1_weighted": 0.5913
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.6466,
+        "val_loss": 0.94945,
+        "val_acc": 0.6279,
+        "val_f1_macro": 0.5824,
+        "val_f1_weighted": 0.6268
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.35342,
+        "val_loss": 1.17125,
+        "val_acc": 0.6047,
+        "val_f1_macro": 0.5725,
+        "val_f1_weighted": 0.6113
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.18907,
+        "val_loss": 1.47534,
+        "val_acc": 0.6434,
+        "val_f1_macro": 0.5771,
+        "val_f1_weighted": 0.6304
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.11343,
+        "val_loss": 1.61668,
+        "val_acc": 0.6408,
+        "val_f1_macro": 0.5931,
+        "val_f1_weighted": 0.6362
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.06526,
+        "val_loss": 1.97837,
+        "val_acc": 0.6408,
+        "val_f1_macro": 0.5718,
+        "val_f1_weighted": 0.6296
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.04017,
+        "val_loss": 1.99807,
+        "val_acc": 0.6357,
+        "val_f1_macro": 0.5672,
+        "val_f1_weighted": 0.6265
+      }
+    ],
+    "elapsed_seconds": 175.5,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "bert",
+    "hf_id": "bert-base-chinese",
+    "fold": 0,
+    "lr": 3e-05,
+    "epochs": 10,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.5888,
+    "val_acc": 0.6305,
+    "val_f1_weighted": 0.6336,
+    "per_class_f1": {
+      "type0_game": 0.7215,
+      "type1_emotional": 0.5156,
+      "type2_political": 0.7063,
+      "type3_nationalist": 0.4762,
+      "type4_neutral": 0.5246
+    },
+    "confusion_matrix": [
+      [
+        57,
+        16,
+        3,
+        1,
+        11
+      ],
+      [
+        9,
+        33,
+        11,
+        2,
+        8
+      ],
+      [
+        3,
+        11,
+        107,
+        15,
+        12
+      ],
+      [
+        0,
+        1,
+        13,
+        15,
+        1
+      ],
+      [
+        1,
+        4,
+        21,
+        0,
+        32
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.4959,
+        "val_loss": 1.33506,
+        "val_acc": 0.4315,
+        "val_f1_macro": 0.3962,
+        "val_f1_weighted": 0.4429
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.0799,
+        "val_loss": 1.02006,
+        "val_acc": 0.553,
+        "val_f1_macro": 0.5142,
+        "val_f1_weighted": 0.556
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.70604,
+        "val_loss": 1.05161,
+        "val_acc": 0.6021,
+        "val_f1_macro": 0.5611,
+        "val_f1_weighted": 0.6074
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.40293,
+        "val_loss": 1.21361,
+        "val_acc": 0.6305,
+        "val_f1_macro": 0.5888,
+        "val_f1_weighted": 0.6336
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.23487,
+        "val_loss": 1.45727,
+        "val_acc": 0.6434,
+        "val_f1_macro": 0.5848,
+        "val_f1_weighted": 0.6379
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.11618,
+        "val_loss": 1.87837,
+        "val_acc": 0.584,
+        "val_f1_macro": 0.5256,
+        "val_f1_weighted": 0.5794
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.06887,
+        "val_loss": 2.12619,
+        "val_acc": 0.6021,
+        "val_f1_macro": 0.5369,
+        "val_f1_weighted": 0.5938
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.05283,
+        "val_loss": 2.13547,
+        "val_acc": 0.6124,
+        "val_f1_macro": 0.5622,
+        "val_f1_weighted": 0.6118
+      },
+      {
+        "epoch": 9,
+        "train_loss": 0.04474,
+        "val_loss": 2.19442,
+        "val_acc": 0.5943,
+        "val_f1_macro": 0.5442,
+        "val_f1_weighted": 0.5936
+      },
+      {
+        "epoch": 10,
+        "train_loss": 0.03116,
+        "val_loss": 2.21248,
+        "val_acc": 0.6098,
+        "val_f1_macro": 0.5623,
+        "val_f1_weighted": 0.6086
+      }
+    ],
+    "elapsed_seconds": 217.0,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "bert",
+    "hf_id": "bert-base-chinese",
+    "fold": 0,
+    "lr": 5e-05,
+    "epochs": 3,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.6038,
+    "val_acc": 0.6486,
+    "val_f1_weighted": 0.6532,
+    "per_class_f1": {
+      "type0_game": 0.7692,
+      "type1_emotional": 0.5522,
+      "type2_political": 0.7059,
+      "type3_nationalist": 0.4179,
+      "type4_neutral": 0.5739
+    },
+    "confusion_matrix": [
+      [
+        65,
+        15,
+        2,
+        1,
+        5
+      ],
+      [
+        8,
+        37,
+        8,
+        3,
+        7
+      ],
+      [
+        5,
+        12,
+        102,
+        19,
+        10
+      ],
+      [
+        0,
+        2,
+        12,
+        14,
+        2
+      ],
+      [
+        3,
+        5,
+        17,
+        0,
+        33
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.38,
+        "val_loss": 1.06986,
+        "val_acc": 0.4755,
+        "val_f1_macro": 0.4678,
+        "val_f1_weighted": 0.4908
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.8692,
+        "val_loss": 0.99918,
+        "val_acc": 0.6124,
+        "val_f1_macro": 0.5628,
+        "val_f1_weighted": 0.6106
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.44251,
+        "val_loss": 1.006,
+        "val_acc": 0.6486,
+        "val_f1_macro": 0.6038,
+        "val_f1_weighted": 0.6532
+      }
+    ],
+    "elapsed_seconds": 64.5,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "bert",
+    "hf_id": "bert-base-chinese",
+    "fold": 0,
+    "lr": 5e-05,
+    "epochs": 5,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.5794,
+    "val_acc": 0.6382,
+    "val_f1_weighted": 0.6321,
+    "per_class_f1": {
+      "type0_game": 0.7574,
+      "type1_emotional": 0.45,
+      "type2_political": 0.7095,
+      "type3_nationalist": 0.4364,
+      "type4_neutral": 0.5437
+    },
+    "confusion_matrix": [
+      [
+        64,
+        14,
+        5,
+        0,
+        5
+      ],
+      [
+        12,
+        27,
+        17,
+        1,
+        6
+      ],
+      [
+        3,
+        11,
+        116,
+        12,
+        6
+      ],
+      [
+        0,
+        1,
+        17,
+        12,
+        0
+      ],
+      [
+        2,
+        4,
+        24,
+        0,
+        28
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.43353,
+        "val_loss": 1.22573,
+        "val_acc": 0.4703,
+        "val_f1_macro": 0.422,
+        "val_f1_weighted": 0.4415
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.96517,
+        "val_loss": 0.98714,
+        "val_acc": 0.6098,
+        "val_f1_macro": 0.5611,
+        "val_f1_weighted": 0.6105
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.56353,
+        "val_loss": 1.25069,
+        "val_acc": 0.5995,
+        "val_f1_macro": 0.5421,
+        "val_f1_weighted": 0.589
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.28407,
+        "val_loss": 1.29446,
+        "val_acc": 0.6227,
+        "val_f1_macro": 0.5764,
+        "val_f1_weighted": 0.6221
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.11628,
+        "val_loss": 1.50562,
+        "val_acc": 0.6382,
+        "val_f1_macro": 0.5794,
+        "val_f1_weighted": 0.6321
+      }
+    ],
+    "elapsed_seconds": 108.1,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "bert",
+    "hf_id": "bert-base-chinese",
+    "fold": 0,
+    "lr": 5e-05,
+    "epochs": 8,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.5771,
+    "val_acc": 0.6331,
+    "val_f1_weighted": 0.6273,
+    "per_class_f1": {
+      "type0_game": 0.6806,
+      "type1_emotional": 0.4885,
+      "type2_political": 0.7289,
+      "type3_nationalist": 0.4667,
+      "type4_neutral": 0.5208
+    },
+    "confusion_matrix": [
+      [
+        49,
+        25,
+        8,
+        1,
+        5
+      ],
+      [
+        3,
+        32,
+        22,
+        1,
+        5
+      ],
+      [
+        1,
+        6,
+        125,
+        13,
+        3
+      ],
+      [
+        0,
+        1,
+        15,
+        14,
+        0
+      ],
+      [
+        3,
+        4,
+        25,
+        1,
+        25
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.48174,
+        "val_loss": 1.13861,
+        "val_acc": 0.4755,
+        "val_f1_macro": 0.4258,
+        "val_f1_weighted": 0.4555
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.04217,
+        "val_loss": 0.99449,
+        "val_acc": 0.584,
+        "val_f1_macro": 0.5556,
+        "val_f1_weighted": 0.5958
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.62532,
+        "val_loss": 1.11553,
+        "val_acc": 0.615,
+        "val_f1_macro": 0.5546,
+        "val_f1_weighted": 0.6065
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.36242,
+        "val_loss": 1.24608,
+        "val_acc": 0.6072,
+        "val_f1_macro": 0.5653,
+        "val_f1_weighted": 0.6114
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.18409,
+        "val_loss": 1.62896,
+        "val_acc": 0.6331,
+        "val_f1_macro": 0.5771,
+        "val_f1_weighted": 0.6273
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.07719,
+        "val_loss": 1.94467,
+        "val_acc": 0.6202,
+        "val_f1_macro": 0.5527,
+        "val_f1_weighted": 0.6077
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.05466,
+        "val_loss": 2.08048,
+        "val_acc": 0.6331,
+        "val_f1_macro": 0.5692,
+        "val_f1_weighted": 0.624
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.03511,
+        "val_loss": 2.13188,
+        "val_acc": 0.6357,
+        "val_f1_macro": 0.5726,
+        "val_f1_weighted": 0.6256
+      }
+    ],
+    "elapsed_seconds": 171.8,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "bert",
+    "hf_id": "bert-base-chinese",
+    "fold": 0,
+    "lr": 5e-05,
+    "epochs": 10,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.5658,
+    "val_acc": 0.6305,
+    "val_f1_weighted": 0.622,
+    "per_class_f1": {
+      "type0_game": 0.7135,
+      "type1_emotional": 0.4333,
+      "type2_political": 0.7278,
+      "type3_nationalist": 0.4444,
+      "type4_neutral": 0.5098
+    },
+    "confusion_matrix": [
+      [
+        61,
+        18,
+        4,
+        0,
+        5
+      ],
+      [
+        12,
+        26,
+        18,
+        3,
+        4
+      ],
+      [
+        3,
+        9,
+        119,
+        9,
+        8
+      ],
+      [
+        1,
+        1,
+        15,
+        12,
+        1
+      ],
+      [
+        6,
+        3,
+        23,
+        0,
+        26
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.47621,
+        "val_loss": 1.44693,
+        "val_acc": 0.4238,
+        "val_f1_macro": 0.3069,
+        "val_f1_weighted": 0.3723
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.15876,
+        "val_loss": 1.01676,
+        "val_acc": 0.5814,
+        "val_f1_macro": 0.5193,
+        "val_f1_weighted": 0.5685
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.76381,
+        "val_loss": 1.0074,
+        "val_acc": 0.6021,
+        "val_f1_macro": 0.5616,
+        "val_f1_weighted": 0.6042
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.4755,
+        "val_loss": 1.27233,
+        "val_acc": 0.5943,
+        "val_f1_macro": 0.5497,
+        "val_f1_weighted": 0.5959
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.24188,
+        "val_loss": 1.47572,
+        "val_acc": 0.5995,
+        "val_f1_macro": 0.5514,
+        "val_f1_weighted": 0.5955
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.13984,
+        "val_loss": 1.82649,
+        "val_acc": 0.6176,
+        "val_f1_macro": 0.5465,
+        "val_f1_weighted": 0.6012
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.08819,
+        "val_loss": 2.15552,
+        "val_acc": 0.6305,
+        "val_f1_macro": 0.5658,
+        "val_f1_weighted": 0.622
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.05267,
+        "val_loss": 2.23583,
+        "val_acc": 0.6021,
+        "val_f1_macro": 0.5409,
+        "val_f1_weighted": 0.5946
+      },
+      {
+        "epoch": 9,
+        "train_loss": 0.03488,
+        "val_loss": 2.44907,
+        "val_acc": 0.6021,
+        "val_f1_macro": 0.5321,
+        "val_f1_weighted": 0.5879
+      },
+      {
+        "epoch": 10,
+        "train_loss": 0.03077,
+        "val_loss": 2.48478,
+        "val_acc": 0.6047,
+        "val_f1_macro": 0.5357,
+        "val_f1_weighted": 0.5911
+      }
+    ],
+    "elapsed_seconds": 213.4,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "roberta",
+    "hf_id": "hfl/chinese-roberta-wwm-ext",
+    "fold": 0,
+    "lr": 1e-05,
+    "epochs": 3,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.577,
+    "val_acc": 0.6098,
+    "val_f1_weighted": 0.6101,
+    "per_class_f1": {
+      "type0_game": 0.7701,
+      "type1_emotional": 0.3684,
+      "type2_political": 0.6459,
+      "type3_nationalist": 0.5106,
+      "type4_neutral": 0.5902
+    },
+    "confusion_matrix": [
+      [
+        72,
+        11,
+        0,
+        1,
+        4
+      ],
+      [
+        19,
+        21,
+        11,
+        2,
+        10
+      ],
+      [
+        6,
+        12,
+        83,
+        33,
+        14
+      ],
+      [
+        0,
+        1,
+        5,
+        24,
+        0
+      ],
+      [
+        2,
+        6,
+        10,
+        4,
+        36
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.47848,
+        "val_loss": 1.1885,
+        "val_acc": 0.5762,
+        "val_f1_macro": 0.4826,
+        "val_f1_weighted": 0.5474
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.13332,
+        "val_loss": 1.02759,
+        "val_acc": 0.6098,
+        "val_f1_macro": 0.577,
+        "val_f1_weighted": 0.6101
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.94615,
+        "val_loss": 0.98547,
+        "val_acc": 0.6072,
+        "val_f1_macro": 0.5689,
+        "val_f1_weighted": 0.607
+      }
+    ],
+    "elapsed_seconds": 62.6,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "roberta",
+    "hf_id": "hfl/chinese-roberta-wwm-ext",
+    "fold": 0,
+    "lr": 1e-05,
+    "epochs": 5,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.6175,
+    "val_acc": 0.6434,
+    "val_f1_weighted": 0.6447,
+    "per_class_f1": {
+      "type0_game": 0.75,
+      "type1_emotional": 0.5385,
+      "type2_political": 0.6926,
+      "type3_nationalist": 0.6111,
+      "type4_neutral": 0.4956
+    },
+    "confusion_matrix": [
+      [
+        66,
+        13,
+        2,
+        0,
+        7
+      ],
+      [
+        11,
+        35,
+        8,
+        2,
+        7
+      ],
+      [
+        7,
+        13,
+        98,
+        17,
+        13
+      ],
+      [
+        0,
+        1,
+        7,
+        22,
+        0
+      ],
+      [
+        4,
+        5,
+        20,
+        1,
+        28
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.53741,
+        "val_loss": 1.30414,
+        "val_acc": 0.4599,
+        "val_f1_macro": 0.4099,
+        "val_f1_weighted": 0.4455
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.14215,
+        "val_loss": 1.01363,
+        "val_acc": 0.5711,
+        "val_f1_macro": 0.5455,
+        "val_f1_weighted": 0.5807
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.89249,
+        "val_loss": 0.93242,
+        "val_acc": 0.6382,
+        "val_f1_macro": 0.5955,
+        "val_f1_weighted": 0.6343
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.7428,
+        "val_loss": 0.90311,
+        "val_acc": 0.6486,
+        "val_f1_macro": 0.616,
+        "val_f1_weighted": 0.648
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.65846,
+        "val_loss": 0.8895,
+        "val_acc": 0.6434,
+        "val_f1_macro": 0.6175,
+        "val_f1_weighted": 0.6447
+      }
+    ],
+    "elapsed_seconds": 105.1,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "roberta",
+    "hf_id": "hfl/chinese-roberta-wwm-ext",
+    "fold": 0,
+    "lr": 1e-05,
+    "epochs": 8,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.6249,
+    "val_acc": 0.6486,
+    "val_f1_weighted": 0.6523,
+    "per_class_f1": {
+      "type0_game": 0.7931,
+      "type1_emotional": 0.5366,
+      "type2_political": 0.674,
+      "type3_nationalist": 0.5679,
+      "type4_neutral": 0.5528
+    },
+    "confusion_matrix": [
+      [
+        69,
+        10,
+        2,
+        0,
+        7
+      ],
+      [
+        11,
+        33,
+        7,
+        3,
+        9
+      ],
+      [
+        4,
+        13,
+        92,
+        24,
+        15
+      ],
+      [
+        0,
+        0,
+        7,
+        23,
+        0
+      ],
+      [
+        2,
+        4,
+        17,
+        1,
+        34
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.5459,
+        "val_loss": 1.2902,
+        "val_acc": 0.4548,
+        "val_f1_macro": 0.3936,
+        "val_f1_weighted": 0.4408
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.1472,
+        "val_loss": 1.03365,
+        "val_acc": 0.5866,
+        "val_f1_macro": 0.5451,
+        "val_f1_weighted": 0.5843
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.86829,
+        "val_loss": 0.89748,
+        "val_acc": 0.6253,
+        "val_f1_macro": 0.6047,
+        "val_f1_weighted": 0.6312
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.67021,
+        "val_loss": 0.88217,
+        "val_acc": 0.646,
+        "val_f1_macro": 0.6136,
+        "val_f1_weighted": 0.6432
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.50853,
+        "val_loss": 0.89076,
+        "val_acc": 0.6486,
+        "val_f1_macro": 0.6249,
+        "val_f1_weighted": 0.6523
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.40501,
+        "val_loss": 0.95593,
+        "val_acc": 0.6408,
+        "val_f1_macro": 0.6012,
+        "val_f1_weighted": 0.6419
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.31756,
+        "val_loss": 0.99463,
+        "val_acc": 0.6434,
+        "val_f1_macro": 0.5937,
+        "val_f1_weighted": 0.6404
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.28443,
+        "val_loss": 1.00122,
+        "val_acc": 0.646,
+        "val_f1_macro": 0.594,
+        "val_f1_weighted": 0.6423
+      }
+    ],
+    "elapsed_seconds": 168.0,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "roberta",
+    "hf_id": "hfl/chinese-roberta-wwm-ext",
+    "fold": 0,
+    "lr": 1e-05,
+    "epochs": 10,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.5961,
+    "val_acc": 0.6382,
+    "val_f1_weighted": 0.6344,
+    "per_class_f1": {
+      "type0_game": 0.7322,
+      "type1_emotional": 0.4685,
+      "type2_political": 0.7,
+      "type3_nationalist": 0.5231,
+      "type4_neutral": 0.5565
+    },
+    "confusion_matrix": [
+      [
+        67,
+        9,
+        5,
+        0,
+        7
+      ],
+      [
+        16,
+        26,
+        12,
+        1,
+        8
+      ],
+      [
+        7,
+        10,
+        105,
+        16,
+        10
+      ],
+      [
+        0,
+        0,
+        13,
+        17,
+        0
+      ],
+      [
+        5,
+        3,
+        17,
+        1,
+        32
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.56958,
+        "val_loss": 1.37189,
+        "val_acc": 0.5116,
+        "val_f1_macro": 0.4299,
+        "val_f1_weighted": 0.5037
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.19577,
+        "val_loss": 1.00729,
+        "val_acc": 0.584,
+        "val_f1_macro": 0.5541,
+        "val_f1_weighted": 0.5938
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.87877,
+        "val_loss": 0.92174,
+        "val_acc": 0.5943,
+        "val_f1_macro": 0.5714,
+        "val_f1_weighted": 0.5966
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.65147,
+        "val_loss": 0.8896,
+        "val_acc": 0.6124,
+        "val_f1_macro": 0.5937,
+        "val_f1_weighted": 0.6182
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.48463,
+        "val_loss": 0.95462,
+        "val_acc": 0.6227,
+        "val_f1_macro": 0.5843,
+        "val_f1_weighted": 0.6211
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.36602,
+        "val_loss": 1.01823,
+        "val_acc": 0.6382,
+        "val_f1_macro": 0.5961,
+        "val_f1_weighted": 0.6344
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.28134,
+        "val_loss": 1.09409,
+        "val_acc": 0.6357,
+        "val_f1_macro": 0.5943,
+        "val_f1_weighted": 0.6328
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.21775,
+        "val_loss": 1.15194,
+        "val_acc": 0.6305,
+        "val_f1_macro": 0.5835,
+        "val_f1_weighted": 0.6271
+      },
+      {
+        "epoch": 9,
+        "train_loss": 0.17784,
+        "val_loss": 1.16386,
+        "val_acc": 0.6279,
+        "val_f1_macro": 0.5884,
+        "val_f1_weighted": 0.626
+      },
+      {
+        "epoch": 10,
+        "train_loss": 0.15089,
+        "val_loss": 1.20238,
+        "val_acc": 0.6279,
+        "val_f1_macro": 0.5838,
+        "val_f1_weighted": 0.6251
+      }
+    ],
+    "elapsed_seconds": 405.6,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "roberta",
+    "hf_id": "hfl/chinese-roberta-wwm-ext",
+    "fold": 0,
+    "lr": 2e-05,
+    "epochs": 3,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.6197,
+    "val_acc": 0.646,
+    "val_f1_weighted": 0.6475,
+    "per_class_f1": {
+      "type0_game": 0.7778,
+      "type1_emotional": 0.5424,
+      "type2_political": 0.6691,
+      "type3_nationalist": 0.55,
+      "type4_neutral": 0.5593
+    },
+    "confusion_matrix": [
+      [
+        70,
+        11,
+        2,
+        1,
+        4
+      ],
+      [
+        12,
+        32,
+        8,
+        3,
+        8
+      ],
+      [
+        9,
+        8,
+        93,
+        23,
+        15
+      ],
+      [
+        0,
+        1,
+        7,
+        22,
+        0
+      ],
+      [
+        1,
+        3,
+        20,
+        1,
+        33
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.39655,
+        "val_loss": 1.07334,
+        "val_acc": 0.491,
+        "val_f1_macro": 0.4981,
+        "val_f1_weighted": 0.5008
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.91876,
+        "val_loss": 0.91461,
+        "val_acc": 0.6098,
+        "val_f1_macro": 0.5887,
+        "val_f1_weighted": 0.6117
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.66504,
+        "val_loss": 0.85994,
+        "val_acc": 0.646,
+        "val_f1_macro": 0.6197,
+        "val_f1_weighted": 0.6475
+      }
+    ],
+    "elapsed_seconds": 63.3,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "roberta",
+    "hf_id": "hfl/chinese-roberta-wwm-ext",
+    "fold": 0,
+    "lr": 2e-05,
+    "epochs": 5,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.6047,
+    "val_acc": 0.646,
+    "val_f1_weighted": 0.6473,
+    "per_class_f1": {
+      "type0_game": 0.7674,
+      "type1_emotional": 0.4918,
+      "type2_political": 0.7003,
+      "type3_nationalist": 0.4776,
+      "type4_neutral": 0.5862
+    },
+    "confusion_matrix": [
+      [
+        66,
+        14,
+        5,
+        0,
+        3
+      ],
+      [
+        10,
+        30,
+        12,
+        2,
+        9
+      ],
+      [
+        7,
+        8,
+        104,
+        18,
+        11
+      ],
+      [
+        0,
+        1,
+        12,
+        16,
+        1
+      ],
+      [
+        1,
+        6,
+        16,
+        1,
+        34
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.44257,
+        "val_loss": 1.07314,
+        "val_acc": 0.5452,
+        "val_f1_macro": 0.464,
+        "val_f1_weighted": 0.5224
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.97806,
+        "val_loss": 0.97985,
+        "val_acc": 0.5297,
+        "val_f1_macro": 0.5211,
+        "val_f1_weighted": 0.5224
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.63428,
+        "val_loss": 0.97986,
+        "val_acc": 0.6382,
+        "val_f1_macro": 0.6037,
+        "val_f1_weighted": 0.6408
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.41679,
+        "val_loss": 0.98273,
+        "val_acc": 0.615,
+        "val_f1_macro": 0.5829,
+        "val_f1_weighted": 0.6202
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.29583,
+        "val_loss": 1.01183,
+        "val_acc": 0.646,
+        "val_f1_macro": 0.6047,
+        "val_f1_weighted": 0.6473
+      }
+    ],
+    "elapsed_seconds": 105.3,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "roberta",
+    "hf_id": "hfl/chinese-roberta-wwm-ext",
+    "fold": 0,
+    "lr": 2e-05,
+    "epochs": 8,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.6148,
+    "val_acc": 0.6641,
+    "val_f1_weighted": 0.6616,
+    "per_class_f1": {
+      "type0_game": 0.7826,
+      "type1_emotional": 0.5593,
+      "type2_political": 0.6983,
+      "type3_nationalist": 0.4068,
+      "type4_neutral": 0.6271
+    },
+    "confusion_matrix": [
+      [
+        72,
+        10,
+        4,
+        0,
+        2
+      ],
+      [
+        13,
+        33,
+        11,
+        1,
+        5
+      ],
+      [
+        7,
+        9,
+        103,
+        15,
+        14
+      ],
+      [
+        0,
+        1,
+        15,
+        12,
+        2
+      ],
+      [
+        4,
+        2,
+        14,
+        1,
+        37
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.49698,
+        "val_loss": 1.13825,
+        "val_acc": 0.5659,
+        "val_f1_macro": 0.5256,
+        "val_f1_weighted": 0.5746
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.01991,
+        "val_loss": 0.89023,
+        "val_acc": 0.584,
+        "val_f1_macro": 0.5657,
+        "val_f1_weighted": 0.5862
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.63205,
+        "val_loss": 0.92823,
+        "val_acc": 0.6305,
+        "val_f1_macro": 0.5998,
+        "val_f1_weighted": 0.6362
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.38577,
+        "val_loss": 0.98023,
+        "val_acc": 0.6641,
+        "val_f1_macro": 0.6148,
+        "val_f1_weighted": 0.6616
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.21444,
+        "val_loss": 1.14061,
+        "val_acc": 0.6589,
+        "val_f1_macro": 0.609,
+        "val_f1_weighted": 0.6546
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.12318,
+        "val_loss": 1.33455,
+        "val_acc": 0.6589,
+        "val_f1_macro": 0.6086,
+        "val_f1_weighted": 0.6583
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.07507,
+        "val_loss": 1.44388,
+        "val_acc": 0.6486,
+        "val_f1_macro": 0.5968,
+        "val_f1_weighted": 0.6461
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.05445,
+        "val_loss": 1.465,
+        "val_acc": 0.6486,
+        "val_f1_macro": 0.5976,
+        "val_f1_weighted": 0.6466
+      }
+    ],
+    "elapsed_seconds": 167.7,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "roberta",
+    "hf_id": "hfl/chinese-roberta-wwm-ext",
+    "fold": 0,
+    "lr": 2e-05,
+    "epochs": 10,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.6,
+    "val_acc": 0.6434,
+    "val_f1_weighted": 0.6431,
+    "per_class_f1": {
+      "type0_game": 0.7614,
+      "type1_emotional": 0.5581,
+      "type2_political": 0.68,
+      "type3_nationalist": 0.4262,
+      "type4_neutral": 0.5741
+    },
+    "confusion_matrix": [
+      [
+        67,
+        13,
+        6,
+        0,
+        2
+      ],
+      [
+        11,
+        36,
+        9,
+        2,
+        5
+      ],
+      [
+        7,
+        14,
+        102,
+        15,
+        10
+      ],
+      [
+        0,
+        0,
+        15,
+        13,
+        2
+      ],
+      [
+        3,
+        3,
+        20,
+        1,
+        31
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.57116,
+        "val_loss": 1.24996,
+        "val_acc": 0.4341,
+        "val_f1_macro": 0.4118,
+        "val_f1_weighted": 0.4455
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.06419,
+        "val_loss": 0.96055,
+        "val_acc": 0.5711,
+        "val_f1_macro": 0.5377,
+        "val_f1_weighted": 0.571
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.6777,
+        "val_loss": 0.94828,
+        "val_acc": 0.5943,
+        "val_f1_macro": 0.5672,
+        "val_f1_weighted": 0.6017
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.41743,
+        "val_loss": 1.0573,
+        "val_acc": 0.6279,
+        "val_f1_macro": 0.5975,
+        "val_f1_weighted": 0.6302
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.23239,
+        "val_loss": 1.23376,
+        "val_acc": 0.6434,
+        "val_f1_macro": 0.6,
+        "val_f1_weighted": 0.6431
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.14265,
+        "val_loss": 1.46696,
+        "val_acc": 0.6331,
+        "val_f1_macro": 0.5818,
+        "val_f1_weighted": 0.6277
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.08439,
+        "val_loss": 1.56778,
+        "val_acc": 0.6305,
+        "val_f1_macro": 0.5911,
+        "val_f1_weighted": 0.6294
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.06364,
+        "val_loss": 1.65615,
+        "val_acc": 0.6382,
+        "val_f1_macro": 0.5911,
+        "val_f1_weighted": 0.6343
+      },
+      {
+        "epoch": 9,
+        "train_loss": 0.04555,
+        "val_loss": 1.77689,
+        "val_acc": 0.6279,
+        "val_f1_macro": 0.5787,
+        "val_f1_weighted": 0.624
+      },
+      {
+        "epoch": 10,
+        "train_loss": 0.03777,
+        "val_loss": 1.85524,
+        "val_acc": 0.6227,
+        "val_f1_macro": 0.5751,
+        "val_f1_weighted": 0.6194
+      }
+    ],
+    "elapsed_seconds": 210.2,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "roberta",
+    "hf_id": "hfl/chinese-roberta-wwm-ext",
+    "fold": 0,
+    "lr": 3e-05,
+    "epochs": 3,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.6301,
+    "val_acc": 0.6563,
+    "val_f1_weighted": 0.6587,
+    "per_class_f1": {
+      "type0_game": 0.7811,
+      "type1_emotional": 0.5667,
+      "type2_political": 0.6894,
+      "type3_nationalist": 0.5753,
+      "type4_neutral": 0.5378
+    },
+    "confusion_matrix": [
+      [
+        66,
+        11,
+        3,
+        0,
+        8
+      ],
+      [
+        7,
+        34,
+        13,
+        1,
+        8
+      ],
+      [
+        6,
+        9,
+        101,
+        20,
+        12
+      ],
+      [
+        0,
+        0,
+        8,
+        21,
+        1
+      ],
+      [
+        2,
+        3,
+        20,
+        1,
+        32
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.38381,
+        "val_loss": 0.97913,
+        "val_acc": 0.5969,
+        "val_f1_macro": 0.5657,
+        "val_f1_weighted": 0.5928
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.83017,
+        "val_loss": 0.87644,
+        "val_acc": 0.6486,
+        "val_f1_macro": 0.6141,
+        "val_f1_weighted": 0.6493
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.51725,
+        "val_loss": 0.85061,
+        "val_acc": 0.6563,
+        "val_f1_macro": 0.6301,
+        "val_f1_weighted": 0.6587
+      }
+    ],
+    "elapsed_seconds": 63.3,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "roberta",
+    "hf_id": "hfl/chinese-roberta-wwm-ext",
+    "fold": 0,
+    "lr": 3e-05,
+    "epochs": 5,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.6155,
+    "val_acc": 0.6563,
+    "val_f1_weighted": 0.6544,
+    "per_class_f1": {
+      "type0_game": 0.7912,
+      "type1_emotional": 0.5593,
+      "type2_political": 0.689,
+      "type3_nationalist": 0.4923,
+      "type4_neutral": 0.5455
+    },
+    "confusion_matrix": [
+      [
+        72,
+        9,
+        4,
+        0,
+        3
+      ],
+      [
+        9,
+        33,
+        12,
+        1,
+        8
+      ],
+      [
+        9,
+        9,
+        103,
+        18,
+        9
+      ],
+      [
+        0,
+        1,
+        11,
+        16,
+        2
+      ],
+      [
+        4,
+        3,
+        21,
+        0,
+        30
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.4328,
+        "val_loss": 1.11315,
+        "val_acc": 0.3979,
+        "val_f1_macro": 0.3972,
+        "val_f1_weighted": 0.3529
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.89018,
+        "val_loss": 0.90649,
+        "val_acc": 0.6357,
+        "val_f1_macro": 0.5964,
+        "val_f1_weighted": 0.629
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.51219,
+        "val_loss": 0.96284,
+        "val_acc": 0.6253,
+        "val_f1_macro": 0.5896,
+        "val_f1_weighted": 0.6272
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.27705,
+        "val_loss": 1.05553,
+        "val_acc": 0.6305,
+        "val_f1_macro": 0.5975,
+        "val_f1_weighted": 0.6287
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.15364,
+        "val_loss": 1.12183,
+        "val_acc": 0.6563,
+        "val_f1_macro": 0.6155,
+        "val_f1_weighted": 0.6544
+      }
+    ],
+    "elapsed_seconds": 104.8,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "roberta",
+    "hf_id": "hfl/chinese-roberta-wwm-ext",
+    "fold": 0,
+    "lr": 3e-05,
+    "epochs": 8,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.6032,
+    "val_acc": 0.6512,
+    "val_f1_weighted": 0.6473,
+    "per_class_f1": {
+      "type0_game": 0.7273,
+      "type1_emotional": 0.4833,
+      "type2_political": 0.7101,
+      "type3_nationalist": 0.4483,
+      "type4_neutral": 0.6471
+    },
+    "confusion_matrix": [
+      [
+        68,
+        15,
+        5,
+        0,
+        0
+      ],
+      [
+        12,
+        29,
+        13,
+        2,
+        7
+      ],
+      [
+        12,
+        10,
+        109,
+        13,
+        4
+      ],
+      [
+        1,
+        1,
+        15,
+        13,
+        0
+      ],
+      [
+        6,
+        2,
+        17,
+        0,
+        33
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.47327,
+        "val_loss": 1.13852,
+        "val_acc": 0.5685,
+        "val_f1_macro": 0.5239,
+        "val_f1_weighted": 0.5834
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.98266,
+        "val_loss": 0.91855,
+        "val_acc": 0.615,
+        "val_f1_macro": 0.5715,
+        "val_f1_weighted": 0.6091
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.58931,
+        "val_loss": 1.01274,
+        "val_acc": 0.5943,
+        "val_f1_macro": 0.5571,
+        "val_f1_weighted": 0.5888
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.30513,
+        "val_loss": 1.10923,
+        "val_acc": 0.6072,
+        "val_f1_macro": 0.5693,
+        "val_f1_weighted": 0.6063
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.13593,
+        "val_loss": 1.38653,
+        "val_acc": 0.6512,
+        "val_f1_macro": 0.6032,
+        "val_f1_weighted": 0.6473
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.08085,
+        "val_loss": 1.53328,
+        "val_acc": 0.6382,
+        "val_f1_macro": 0.5862,
+        "val_f1_weighted": 0.6368
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.04008,
+        "val_loss": 1.86654,
+        "val_acc": 0.6357,
+        "val_f1_macro": 0.5756,
+        "val_f1_weighted": 0.6254
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.02883,
+        "val_loss": 1.70618,
+        "val_acc": 0.6537,
+        "val_f1_macro": 0.5985,
+        "val_f1_weighted": 0.6468
+      }
+    ],
+    "elapsed_seconds": 167.4,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "roberta",
+    "hf_id": "hfl/chinese-roberta-wwm-ext",
+    "fold": 0,
+    "lr": 3e-05,
+    "epochs": 10,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.6108,
+    "val_acc": 0.6667,
+    "val_f1_weighted": 0.66,
+    "per_class_f1": {
+      "type0_game": 0.8068,
+      "type1_emotional": 0.5828,
+      "type2_political": 0.7219,
+      "type3_nationalist": 0.4923,
+      "type4_neutral": 0.45
+    },
+    "confusion_matrix": [
+      [
+        71,
+        14,
+        3,
+        0,
+        0
+      ],
+      [
+        9,
+        44,
+        5,
+        2,
+        3
+      ],
+      [
+        5,
+        18,
+        109,
+        15,
+        1
+      ],
+      [
+        0,
+        2,
+        12,
+        16,
+        0
+      ],
+      [
+        3,
+        10,
+        25,
+        2,
+        18
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.44952,
+        "val_loss": 1.14907,
+        "val_acc": 0.5142,
+        "val_f1_macro": 0.4639,
+        "val_f1_weighted": 0.5106
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.95481,
+        "val_loss": 0.92747,
+        "val_acc": 0.6667,
+        "val_f1_macro": 0.6108,
+        "val_f1_weighted": 0.66
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.56544,
+        "val_loss": 1.0526,
+        "val_acc": 0.5917,
+        "val_f1_macro": 0.5608,
+        "val_f1_weighted": 0.5925
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.27903,
+        "val_loss": 1.28913,
+        "val_acc": 0.646,
+        "val_f1_macro": 0.5839,
+        "val_f1_weighted": 0.642
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.15969,
+        "val_loss": 1.45202,
+        "val_acc": 0.6408,
+        "val_f1_macro": 0.5911,
+        "val_f1_weighted": 0.6334
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.08484,
+        "val_loss": 1.75114,
+        "val_acc": 0.6305,
+        "val_f1_macro": 0.5864,
+        "val_f1_weighted": 0.6325
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.05787,
+        "val_loss": 2.00914,
+        "val_acc": 0.6434,
+        "val_f1_macro": 0.5812,
+        "val_f1_weighted": 0.6333
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.05022,
+        "val_loss": 1.97687,
+        "val_acc": 0.6227,
+        "val_f1_macro": 0.577,
+        "val_f1_weighted": 0.6202
+      },
+      {
+        "epoch": 9,
+        "train_loss": 0.04247,
+        "val_loss": 2.01695,
+        "val_acc": 0.6202,
+        "val_f1_macro": 0.5703,
+        "val_f1_weighted": 0.6158
+      },
+      {
+        "epoch": 10,
+        "train_loss": 0.02635,
+        "val_loss": 2.02638,
+        "val_acc": 0.6227,
+        "val_f1_macro": 0.5729,
+        "val_f1_weighted": 0.6191
+      }
+    ],
+    "elapsed_seconds": 209.1,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "roberta",
+    "hf_id": "hfl/chinese-roberta-wwm-ext",
+    "fold": 0,
+    "lr": 5e-05,
+    "epochs": 3,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.6004,
+    "val_acc": 0.6331,
+    "val_f1_weighted": 0.6404,
+    "per_class_f1": {
+      "type0_game": 0.7907,
+      "type1_emotional": 0.5441,
+      "type2_political": 0.6617,
+      "type3_nationalist": 0.4384,
+      "type4_neutral": 0.5669
+    },
+    "confusion_matrix": [
+      [
+        68,
+        11,
+        2,
+        1,
+        6
+      ],
+      [
+        9,
+        37,
+        6,
+        3,
+        8
+      ],
+      [
+        2,
+        17,
+        88,
+        22,
+        19
+      ],
+      [
+        1,
+        4,
+        9,
+        16,
+        0
+      ],
+      [
+        4,
+        4,
+        13,
+        1,
+        36
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.30584,
+        "val_loss": 1.01666,
+        "val_acc": 0.6357,
+        "val_f1_macro": 0.5832,
+        "val_f1_weighted": 0.6267
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.79586,
+        "val_loss": 0.91579,
+        "val_acc": 0.6331,
+        "val_f1_macro": 0.6004,
+        "val_f1_weighted": 0.6404
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.42478,
+        "val_loss": 0.99498,
+        "val_acc": 0.6382,
+        "val_f1_macro": 0.597,
+        "val_f1_weighted": 0.6439
+      }
+    ],
+    "elapsed_seconds": 63.1,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "roberta",
+    "hf_id": "hfl/chinese-roberta-wwm-ext",
+    "fold": 0,
+    "lr": 5e-05,
+    "epochs": 5,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.6093,
+    "val_acc": 0.646,
+    "val_f1_weighted": 0.6448,
+    "per_class_f1": {
+      "type0_game": 0.7753,
+      "type1_emotional": 0.5167,
+      "type2_political": 0.6776,
+      "type3_nationalist": 0.5,
+      "type4_neutral": 0.5769
+    },
+    "confusion_matrix": [
+      [
+        69,
+        11,
+        7,
+        0,
+        1
+      ],
+      [
+        11,
+        31,
+        15,
+        1,
+        5
+      ],
+      [
+        7,
+        10,
+        103,
+        19,
+        9
+      ],
+      [
+        0,
+        2,
+        10,
+        17,
+        1
+      ],
+      [
+        3,
+        3,
+        21,
+        1,
+        30
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.34049,
+        "val_loss": 0.98223,
+        "val_acc": 0.5762,
+        "val_f1_macro": 0.5181,
+        "val_f1_weighted": 0.5608
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.8464,
+        "val_loss": 0.99094,
+        "val_acc": 0.5194,
+        "val_f1_macro": 0.5255,
+        "val_f1_weighted": 0.522
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.44068,
+        "val_loss": 1.12032,
+        "val_acc": 0.6486,
+        "val_f1_macro": 0.5889,
+        "val_f1_weighted": 0.6386
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.17938,
+        "val_loss": 1.30531,
+        "val_acc": 0.646,
+        "val_f1_macro": 0.6093,
+        "val_f1_weighted": 0.6448
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.07846,
+        "val_loss": 1.47256,
+        "val_acc": 0.6537,
+        "val_f1_macro": 0.6037,
+        "val_f1_weighted": 0.6474
+      }
+    ],
+    "elapsed_seconds": 105.2,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "roberta",
+    "hf_id": "hfl/chinese-roberta-wwm-ext",
+    "fold": 0,
+    "lr": 5e-05,
+    "epochs": 8,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.5944,
+    "val_acc": 0.6641,
+    "val_f1_weighted": 0.6545,
+    "per_class_f1": {
+      "type0_game": 0.7574,
+      "type1_emotional": 0.4746,
+      "type2_political": 0.747,
+      "type3_nationalist": 0.4082,
+      "type4_neutral": 0.5849
+    },
+    "confusion_matrix": [
+      [
+        64,
+        16,
+        5,
+        0,
+        3
+      ],
+      [
+        9,
+        28,
+        18,
+        1,
+        7
+      ],
+      [
+        6,
+        5,
+        124,
+        8,
+        5
+      ],
+      [
+        0,
+        2,
+        16,
+        10,
+        2
+      ],
+      [
+        2,
+        4,
+        21,
+        0,
+        31
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.38675,
+        "val_loss": 1.05909,
+        "val_acc": 0.5581,
+        "val_f1_macro": 0.4862,
+        "val_f1_weighted": 0.5402
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.934,
+        "val_loss": 0.95502,
+        "val_acc": 0.6098,
+        "val_f1_macro": 0.5617,
+        "val_f1_weighted": 0.6001
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.49241,
+        "val_loss": 1.05579,
+        "val_acc": 0.6279,
+        "val_f1_macro": 0.5864,
+        "val_f1_weighted": 0.6242
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.24087,
+        "val_loss": 1.49162,
+        "val_acc": 0.6486,
+        "val_f1_macro": 0.5708,
+        "val_f1_weighted": 0.6287
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.1121,
+        "val_loss": 1.77201,
+        "val_acc": 0.6641,
+        "val_f1_macro": 0.5944,
+        "val_f1_weighted": 0.6545
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.05413,
+        "val_loss": 1.95674,
+        "val_acc": 0.6305,
+        "val_f1_macro": 0.5739,
+        "val_f1_weighted": 0.6249
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.04546,
+        "val_loss": 2.158,
+        "val_acc": 0.6434,
+        "val_f1_macro": 0.5729,
+        "val_f1_weighted": 0.6314
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.03271,
+        "val_loss": 2.14244,
+        "val_acc": 0.6253,
+        "val_f1_macro": 0.5598,
+        "val_f1_weighted": 0.6151
+      }
+    ],
+    "elapsed_seconds": 167.7,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "roberta",
+    "hf_id": "hfl/chinese-roberta-wwm-ext",
+    "fold": 0,
+    "lr": 5e-05,
+    "epochs": 10,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.593,
+    "val_acc": 0.6408,
+    "val_f1_weighted": 0.6364,
+    "per_class_f1": {
+      "type0_game": 0.7407,
+      "type1_emotional": 0.5179,
+      "type2_political": 0.6863,
+      "type3_nationalist": 0.4375,
+      "type4_neutral": 0.5825
+    },
+    "confusion_matrix": [
+      [
+        70,
+        11,
+        6,
+        0,
+        1
+      ],
+      [
+        15,
+        29,
+        12,
+        2,
+        5
+      ],
+      [
+        12,
+        5,
+        105,
+        18,
+        8
+      ],
+      [
+        0,
+        1,
+        14,
+        14,
+        1
+      ],
+      [
+        4,
+        3,
+        21,
+        0,
+        30
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.41292,
+        "val_loss": 1.06232,
+        "val_acc": 0.5633,
+        "val_f1_macro": 0.5277,
+        "val_f1_weighted": 0.5731
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.96049,
+        "val_loss": 0.99205,
+        "val_acc": 0.5659,
+        "val_f1_macro": 0.5292,
+        "val_f1_weighted": 0.5534
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.5195,
+        "val_loss": 1.0942,
+        "val_acc": 0.6021,
+        "val_f1_macro": 0.5723,
+        "val_f1_weighted": 0.6059
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.25654,
+        "val_loss": 1.28596,
+        "val_acc": 0.6227,
+        "val_f1_macro": 0.5814,
+        "val_f1_weighted": 0.6225
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.11968,
+        "val_loss": 1.64039,
+        "val_acc": 0.6512,
+        "val_f1_macro": 0.5925,
+        "val_f1_weighted": 0.6388
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.08385,
+        "val_loss": 1.91935,
+        "val_acc": 0.6176,
+        "val_f1_macro": 0.5592,
+        "val_f1_weighted": 0.6063
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.04965,
+        "val_loss": 2.01419,
+        "val_acc": 0.6331,
+        "val_f1_macro": 0.579,
+        "val_f1_weighted": 0.628
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.03824,
+        "val_loss": 2.03051,
+        "val_acc": 0.6408,
+        "val_f1_macro": 0.593,
+        "val_f1_weighted": 0.6364
+      },
+      {
+        "epoch": 9,
+        "train_loss": 0.02972,
+        "val_loss": 2.29687,
+        "val_acc": 0.6512,
+        "val_f1_macro": 0.5811,
+        "val_f1_weighted": 0.6372
+      },
+      {
+        "epoch": 10,
+        "train_loss": 0.01979,
+        "val_loss": 2.28422,
+        "val_acc": 0.646,
+        "val_f1_macro": 0.5811,
+        "val_f1_weighted": 0.6343
+      }
+    ],
+    "elapsed_seconds": 209.9,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "macbert",
+    "hf_id": "hfl/chinese-macbert-base",
+    "fold": 0,
+    "lr": 1e-05,
+    "epochs": 3,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.5403,
+    "val_acc": 0.5814,
+    "val_f1_weighted": 0.592,
+    "per_class_f1": {
+      "type0_game": 0.6554,
+      "type1_emotional": 0.4545,
+      "type2_political": 0.6794,
+      "type3_nationalist": 0.3797,
+      "type4_neutral": 0.5323
+    },
+    "confusion_matrix": [
+      [
+        58,
+        20,
+        2,
+        5,
+        3
+      ],
+      [
+        20,
+        30,
+        3,
+        2,
+        8
+      ],
+      [
+        8,
+        9,
+        89,
+        23,
+        19
+      ],
+      [
+        0,
+        5,
+        7,
+        15,
+        3
+      ],
+      [
+        3,
+        5,
+        13,
+        4,
+        33
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.5834,
+        "val_loss": 1.35588,
+        "val_acc": 0.5297,
+        "val_f1_macro": 0.4501,
+        "val_f1_weighted": 0.5233
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.28561,
+        "val_loss": 1.18998,
+        "val_acc": 0.5788,
+        "val_f1_macro": 0.5239,
+        "val_f1_weighted": 0.5789
+      },
+      {
+        "epoch": 3,
+        "train_loss": 1.12843,
+        "val_loss": 1.14247,
+        "val_acc": 0.5814,
+        "val_f1_macro": 0.5403,
+        "val_f1_weighted": 0.592
+      }
+    ],
+    "elapsed_seconds": 63.1,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "macbert",
+    "hf_id": "hfl/chinese-macbert-base",
+    "fold": 0,
+    "lr": 1e-05,
+    "epochs": 5,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.5842,
+    "val_acc": 0.6202,
+    "val_f1_weighted": 0.6237,
+    "per_class_f1": {
+      "type0_game": 0.7701,
+      "type1_emotional": 0.4793,
+      "type2_political": 0.6718,
+      "type3_nationalist": 0.5,
+      "type4_neutral": 0.5
+    },
+    "confusion_matrix": [
+      [
+        72,
+        11,
+        0,
+        1,
+        4
+      ],
+      [
+        14,
+        29,
+        6,
+        2,
+        12
+      ],
+      [
+        9,
+        9,
+        88,
+        27,
+        15
+      ],
+      [
+        0,
+        1,
+        7,
+        21,
+        1
+      ],
+      [
+        4,
+        8,
+        13,
+        3,
+        30
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.57611,
+        "val_loss": 1.35005,
+        "val_acc": 0.4238,
+        "val_f1_macro": 0.3955,
+        "val_f1_weighted": 0.4167
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.24608,
+        "val_loss": 1.08823,
+        "val_acc": 0.6253,
+        "val_f1_macro": 0.5664,
+        "val_f1_weighted": 0.6289
+      },
+      {
+        "epoch": 3,
+        "train_loss": 1.00587,
+        "val_loss": 0.98263,
+        "val_acc": 0.5943,
+        "val_f1_macro": 0.5562,
+        "val_f1_weighted": 0.6004
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.82507,
+        "val_loss": 0.93288,
+        "val_acc": 0.6176,
+        "val_f1_macro": 0.5838,
+        "val_f1_weighted": 0.6208
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.73778,
+        "val_loss": 0.92038,
+        "val_acc": 0.6202,
+        "val_f1_macro": 0.5842,
+        "val_f1_weighted": 0.6237
+      }
+    ],
+    "elapsed_seconds": 105.2,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "macbert",
+    "hf_id": "hfl/chinese-macbert-base",
+    "fold": 0,
+    "lr": 1e-05,
+    "epochs": 8,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.6024,
+    "val_acc": 0.6486,
+    "val_f1_weighted": 0.6445,
+    "per_class_f1": {
+      "type0_game": 0.7701,
+      "type1_emotional": 0.4587,
+      "type2_political": 0.6986,
+      "type3_nationalist": 0.4848,
+      "type4_neutral": 0.6
+    },
+    "confusion_matrix": [
+      [
+        72,
+        10,
+        3,
+        0,
+        3
+      ],
+      [
+        17,
+        25,
+        10,
+        4,
+        7
+      ],
+      [
+        8,
+        8,
+        102,
+        15,
+        15
+      ],
+      [
+        0,
+        0,
+        13,
+        16,
+        1
+      ],
+      [
+        2,
+        3,
+        16,
+        1,
+        36
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.5846,
+        "val_loss": 1.45498,
+        "val_acc": 0.5039,
+        "val_f1_macro": 0.3795,
+        "val_f1_weighted": 0.4851
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.29425,
+        "val_loss": 1.06446,
+        "val_acc": 0.5762,
+        "val_f1_macro": 0.5491,
+        "val_f1_weighted": 0.5761
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.9453,
+        "val_loss": 0.92485,
+        "val_acc": 0.6072,
+        "val_f1_macro": 0.573,
+        "val_f1_weighted": 0.6053
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.69598,
+        "val_loss": 0.92144,
+        "val_acc": 0.5969,
+        "val_f1_macro": 0.5613,
+        "val_f1_weighted": 0.5908
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.52756,
+        "val_loss": 0.96341,
+        "val_acc": 0.6331,
+        "val_f1_macro": 0.5897,
+        "val_f1_weighted": 0.6323
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.40902,
+        "val_loss": 0.99985,
+        "val_acc": 0.6486,
+        "val_f1_macro": 0.6024,
+        "val_f1_weighted": 0.6445
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.33238,
+        "val_loss": 1.02373,
+        "val_acc": 0.6331,
+        "val_f1_macro": 0.5935,
+        "val_f1_weighted": 0.6312
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.28316,
+        "val_loss": 1.04005,
+        "val_acc": 0.6279,
+        "val_f1_macro": 0.5876,
+        "val_f1_weighted": 0.6276
+      }
+    ],
+    "elapsed_seconds": 167.9,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "macbert",
+    "hf_id": "hfl/chinese-macbert-base",
+    "fold": 0,
+    "lr": 1e-05,
+    "epochs": 10,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.5962,
+    "val_acc": 0.6382,
+    "val_f1_weighted": 0.6371,
+    "per_class_f1": {
+      "type0_game": 0.7473,
+      "type1_emotional": 0.5042,
+      "type2_political": 0.6894,
+      "type3_nationalist": 0.4762,
+      "type4_neutral": 0.5641
+    },
+    "confusion_matrix": [
+      [
+        68,
+        11,
+        2,
+        1,
+        6
+      ],
+      [
+        13,
+        30,
+        10,
+        2,
+        8
+      ],
+      [
+        11,
+        10,
+        101,
+        14,
+        12
+      ],
+      [
+        0,
+        1,
+        14,
+        15,
+        0
+      ],
+      [
+        2,
+        4,
+        18,
+        1,
+        33
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.6105,
+        "val_loss": 1.40892,
+        "val_acc": 0.3953,
+        "val_f1_macro": 0.3605,
+        "val_f1_weighted": 0.4098
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.30322,
+        "val_loss": 1.11506,
+        "val_acc": 0.5995,
+        "val_f1_macro": 0.5301,
+        "val_f1_weighted": 0.589
+      },
+      {
+        "epoch": 3,
+        "train_loss": 1.01159,
+        "val_loss": 0.97236,
+        "val_acc": 0.5504,
+        "val_f1_macro": 0.5339,
+        "val_f1_weighted": 0.5594
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.77614,
+        "val_loss": 0.9185,
+        "val_acc": 0.5659,
+        "val_f1_macro": 0.5539,
+        "val_f1_weighted": 0.5652
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.61383,
+        "val_loss": 0.92127,
+        "val_acc": 0.5891,
+        "val_f1_macro": 0.5583,
+        "val_f1_weighted": 0.5923
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.47079,
+        "val_loss": 0.96167,
+        "val_acc": 0.6176,
+        "val_f1_macro": 0.5898,
+        "val_f1_weighted": 0.617
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.35831,
+        "val_loss": 0.99017,
+        "val_acc": 0.6176,
+        "val_f1_macro": 0.5795,
+        "val_f1_weighted": 0.6174
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.28941,
+        "val_loss": 1.04478,
+        "val_acc": 0.6227,
+        "val_f1_macro": 0.5879,
+        "val_f1_weighted": 0.6231
+      },
+      {
+        "epoch": 9,
+        "train_loss": 0.2502,
+        "val_loss": 1.08915,
+        "val_acc": 0.6279,
+        "val_f1_macro": 0.5807,
+        "val_f1_weighted": 0.6263
+      },
+      {
+        "epoch": 10,
+        "train_loss": 0.22085,
+        "val_loss": 1.08843,
+        "val_acc": 0.6382,
+        "val_f1_macro": 0.5962,
+        "val_f1_weighted": 0.6371
+      }
+    ],
+    "elapsed_seconds": 210.3,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "macbert",
+    "hf_id": "hfl/chinese-macbert-base",
+    "fold": 0,
+    "lr": 2e-05,
+    "epochs": 3,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.5907,
+    "val_acc": 0.6279,
+    "val_f1_weighted": 0.6288,
+    "per_class_f1": {
+      "type0_game": 0.7514,
+      "type1_emotional": 0.5,
+      "type2_political": 0.6855,
+      "type3_nationalist": 0.525,
+      "type4_neutral": 0.4915
+    },
+    "confusion_matrix": [
+      [
+        68,
+        11,
+        0,
+        1,
+        8
+      ],
+      [
+        14,
+        28,
+        10,
+        1,
+        10
+      ],
+      [
+        7,
+        6,
+        97,
+        25,
+        13
+      ],
+      [
+        0,
+        0,
+        9,
+        21,
+        0
+      ],
+      [
+        4,
+        4,
+        19,
+        2,
+        29
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.48071,
+        "val_loss": 1.18117,
+        "val_acc": 0.5039,
+        "val_f1_macro": 0.4762,
+        "val_f1_weighted": 0.5121
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.06712,
+        "val_loss": 0.99946,
+        "val_acc": 0.5788,
+        "val_f1_macro": 0.5412,
+        "val_f1_weighted": 0.5732
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.77734,
+        "val_loss": 0.94494,
+        "val_acc": 0.6279,
+        "val_f1_macro": 0.5907,
+        "val_f1_weighted": 0.6288
+      }
+    ],
+    "elapsed_seconds": 63.3,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "macbert",
+    "hf_id": "hfl/chinese-macbert-base",
+    "fold": 0,
+    "lr": 2e-05,
+    "epochs": 5,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.5879,
+    "val_acc": 0.6227,
+    "val_f1_weighted": 0.6258,
+    "per_class_f1": {
+      "type0_game": 0.7933,
+      "type1_emotional": 0.4889,
+      "type2_political": 0.6406,
+      "type3_nationalist": 0.4348,
+      "type4_neutral": 0.5818
+    },
+    "confusion_matrix": [
+      [
+        71,
+        10,
+        3,
+        0,
+        4
+      ],
+      [
+        13,
+        33,
+        8,
+        3,
+        6
+      ],
+      [
+        6,
+        22,
+        90,
+        20,
+        10
+      ],
+      [
+        0,
+        2,
+        13,
+        15,
+        0
+      ],
+      [
+        1,
+        5,
+        19,
+        1,
+        32
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.52433,
+        "val_loss": 1.21799,
+        "val_acc": 0.5943,
+        "val_f1_macro": 0.5085,
+        "val_f1_weighted": 0.5867
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.07469,
+        "val_loss": 0.95118,
+        "val_acc": 0.5375,
+        "val_f1_macro": 0.528,
+        "val_f1_weighted": 0.525
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.72294,
+        "val_loss": 0.9518,
+        "val_acc": 0.6047,
+        "val_f1_macro": 0.5839,
+        "val_f1_weighted": 0.6098
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.50433,
+        "val_loss": 0.94085,
+        "val_acc": 0.5995,
+        "val_f1_macro": 0.5819,
+        "val_f1_weighted": 0.6039
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.37597,
+        "val_loss": 0.97516,
+        "val_acc": 0.6227,
+        "val_f1_macro": 0.5879,
+        "val_f1_weighted": 0.6258
+      }
+    ],
+    "elapsed_seconds": 105.1,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "macbert",
+    "hf_id": "hfl/chinese-macbert-base",
+    "fold": 0,
+    "lr": 2e-05,
+    "epochs": 8,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.6001,
+    "val_acc": 0.6408,
+    "val_f1_weighted": 0.6366,
+    "per_class_f1": {
+      "type0_game": 0.7385,
+      "type1_emotional": 0.531,
+      "type2_political": 0.6806,
+      "type3_nationalist": 0.4906,
+      "type4_neutral": 0.56
+    },
+    "confusion_matrix": [
+      [
+        72,
+        9,
+        3,
+        0,
+        4
+      ],
+      [
+        15,
+        30,
+        9,
+        1,
+        8
+      ],
+      [
+        14,
+        8,
+        98,
+        9,
+        19
+      ],
+      [
+        0,
+        1,
+        15,
+        13,
+        1
+      ],
+      [
+        6,
+        2,
+        15,
+        0,
+        35
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.52904,
+        "val_loss": 1.27083,
+        "val_acc": 0.4677,
+        "val_f1_macro": 0.4094,
+        "val_f1_weighted": 0.4515
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.13504,
+        "val_loss": 0.94385,
+        "val_acc": 0.5969,
+        "val_f1_macro": 0.5685,
+        "val_f1_weighted": 0.5979
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.74197,
+        "val_loss": 0.92808,
+        "val_acc": 0.6098,
+        "val_f1_macro": 0.5722,
+        "val_f1_weighted": 0.613
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.45186,
+        "val_loss": 1.03032,
+        "val_acc": 0.646,
+        "val_f1_macro": 0.5963,
+        "val_f1_weighted": 0.6439
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.27331,
+        "val_loss": 1.14189,
+        "val_acc": 0.6408,
+        "val_f1_macro": 0.6001,
+        "val_f1_weighted": 0.6366
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.16933,
+        "val_loss": 1.22632,
+        "val_acc": 0.6357,
+        "val_f1_macro": 0.5923,
+        "val_f1_weighted": 0.6342
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.11284,
+        "val_loss": 1.34427,
+        "val_acc": 0.6331,
+        "val_f1_macro": 0.5933,
+        "val_f1_weighted": 0.6316
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.08207,
+        "val_loss": 1.42488,
+        "val_acc": 0.6486,
+        "val_f1_macro": 0.5907,
+        "val_f1_weighted": 0.6423
+      }
+    ],
+    "elapsed_seconds": 168.3,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "macbert",
+    "hf_id": "hfl/chinese-macbert-base",
+    "fold": 0,
+    "lr": 2e-05,
+    "epochs": 10,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.5894,
+    "val_acc": 0.6176,
+    "val_f1_weighted": 0.6227,
+    "per_class_f1": {
+      "type0_game": 0.7485,
+      "type1_emotional": 0.4844,
+      "type2_political": 0.6691,
+      "type3_nationalist": 0.5373,
+      "type4_neutral": 0.5077
+    },
+    "confusion_matrix": [
+      [
+        64,
+        13,
+        4,
+        0,
+        7
+      ],
+      [
+        11,
+        31,
+        11,
+        1,
+        9
+      ],
+      [
+        5,
+        15,
+        93,
+        17,
+        18
+      ],
+      [
+        0,
+        0,
+        7,
+        18,
+        5
+      ],
+      [
+        3,
+        6,
+        15,
+        1,
+        33
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.59009,
+        "val_loss": 1.39892,
+        "val_acc": 0.4806,
+        "val_f1_macro": 0.4344,
+        "val_f1_weighted": 0.4754
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.23722,
+        "val_loss": 1.02588,
+        "val_acc": 0.5917,
+        "val_f1_macro": 0.5522,
+        "val_f1_weighted": 0.5974
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.85197,
+        "val_loss": 0.92575,
+        "val_acc": 0.6047,
+        "val_f1_macro": 0.5796,
+        "val_f1_weighted": 0.6054
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.53479,
+        "val_loss": 0.99778,
+        "val_acc": 0.6176,
+        "val_f1_macro": 0.5894,
+        "val_f1_weighted": 0.6227
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.31598,
+        "val_loss": 1.04452,
+        "val_acc": 0.6176,
+        "val_f1_macro": 0.5857,
+        "val_f1_weighted": 0.6193
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.19007,
+        "val_loss": 1.38641,
+        "val_acc": 0.6331,
+        "val_f1_macro": 0.5821,
+        "val_f1_weighted": 0.6242
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.10932,
+        "val_loss": 1.53174,
+        "val_acc": 0.6305,
+        "val_f1_macro": 0.588,
+        "val_f1_weighted": 0.6295
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.08284,
+        "val_loss": 1.69689,
+        "val_acc": 0.6124,
+        "val_f1_macro": 0.5624,
+        "val_f1_weighted": 0.6089
+      },
+      {
+        "epoch": 9,
+        "train_loss": 0.05957,
+        "val_loss": 1.74518,
+        "val_acc": 0.6305,
+        "val_f1_macro": 0.5772,
+        "val_f1_weighted": 0.6259
+      },
+      {
+        "epoch": 10,
+        "train_loss": 0.04395,
+        "val_loss": 1.75212,
+        "val_acc": 0.6331,
+        "val_f1_macro": 0.5852,
+        "val_f1_weighted": 0.6289
+      }
+    ],
+    "elapsed_seconds": 210.5,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "macbert",
+    "hf_id": "hfl/chinese-macbert-base",
+    "fold": 0,
+    "lr": 3e-05,
+    "epochs": 3,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.6045,
+    "val_acc": 0.6331,
+    "val_f1_weighted": 0.6361,
+    "per_class_f1": {
+      "type0_game": 0.7582,
+      "type1_emotional": 0.5082,
+      "type2_political": 0.6642,
+      "type3_nationalist": 0.5063,
+      "type4_neutral": 0.5854
+    },
+    "confusion_matrix": [
+      [
+        69,
+        10,
+        2,
+        1,
+        6
+      ],
+      [
+        15,
+        31,
+        6,
+        3,
+        8
+      ],
+      [
+        9,
+        11,
+        89,
+        25,
+        14
+      ],
+      [
+        0,
+        1,
+        8,
+        20,
+        1
+      ],
+      [
+        1,
+        6,
+        15,
+        0,
+        36
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.45443,
+        "val_loss": 1.15803,
+        "val_acc": 0.5478,
+        "val_f1_macro": 0.5116,
+        "val_f1_weighted": 0.5479
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.03417,
+        "val_loss": 1.00812,
+        "val_acc": 0.5581,
+        "val_f1_macro": 0.5484,
+        "val_f1_weighted": 0.5784
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.72493,
+        "val_loss": 0.91477,
+        "val_acc": 0.6331,
+        "val_f1_macro": 0.6045,
+        "val_f1_weighted": 0.6361
+      }
+    ],
+    "elapsed_seconds": 63.3,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "macbert",
+    "hf_id": "hfl/chinese-macbert-base",
+    "fold": 0,
+    "lr": 3e-05,
+    "epochs": 5,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.6144,
+    "val_acc": 0.646,
+    "val_f1_weighted": 0.6478,
+    "per_class_f1": {
+      "type0_game": 0.7529,
+      "type1_emotional": 0.5312,
+      "type2_political": 0.6913,
+      "type3_nationalist": 0.5333,
+      "type4_neutral": 0.5631
+    },
+    "confusion_matrix": [
+      [
+        64,
+        16,
+        5,
+        0,
+        3
+      ],
+      [
+        10,
+        34,
+        10,
+        2,
+        7
+      ],
+      [
+        6,
+        11,
+        103,
+        22,
+        6
+      ],
+      [
+        0,
+        0,
+        10,
+        20,
+        0
+      ],
+      [
+        2,
+        4,
+        22,
+        1,
+        29
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.48556,
+        "val_loss": 1.2419,
+        "val_acc": 0.4755,
+        "val_f1_macro": 0.4158,
+        "val_f1_weighted": 0.4395
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.02065,
+        "val_loss": 1.00271,
+        "val_acc": 0.5478,
+        "val_f1_macro": 0.5057,
+        "val_f1_weighted": 0.5307
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.63614,
+        "val_loss": 0.97228,
+        "val_acc": 0.5891,
+        "val_f1_macro": 0.5659,
+        "val_f1_weighted": 0.5877
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.38034,
+        "val_loss": 1.01794,
+        "val_acc": 0.646,
+        "val_f1_macro": 0.6144,
+        "val_f1_weighted": 0.6478
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.22152,
+        "val_loss": 1.11281,
+        "val_acc": 0.6486,
+        "val_f1_macro": 0.6074,
+        "val_f1_weighted": 0.648
+      }
+    ],
+    "elapsed_seconds": 105.2,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "macbert",
+    "hf_id": "hfl/chinese-macbert-base",
+    "fold": 0,
+    "lr": 3e-05,
+    "epochs": 8,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.6077,
+    "val_acc": 0.6434,
+    "val_f1_weighted": 0.644,
+    "per_class_f1": {
+      "type0_game": 0.7784,
+      "type1_emotional": 0.5303,
+      "type2_political": 0.6752,
+      "type3_nationalist": 0.4923,
+      "type4_neutral": 0.5625
+    },
+    "confusion_matrix": [
+      [
+        65,
+        16,
+        7,
+        0,
+        0
+      ],
+      [
+        6,
+        35,
+        15,
+        2,
+        5
+      ],
+      [
+        6,
+        14,
+        106,
+        16,
+        6
+      ],
+      [
+        0,
+        0,
+        14,
+        16,
+        0
+      ],
+      [
+        2,
+        4,
+        24,
+        1,
+        27
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.51212,
+        "val_loss": 1.08149,
+        "val_acc": 0.5581,
+        "val_f1_macro": 0.5453,
+        "val_f1_weighted": 0.5662
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.01495,
+        "val_loss": 0.92791,
+        "val_acc": 0.6176,
+        "val_f1_macro": 0.5934,
+        "val_f1_weighted": 0.624
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.61287,
+        "val_loss": 0.96771,
+        "val_acc": 0.615,
+        "val_f1_macro": 0.5806,
+        "val_f1_weighted": 0.6184
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.34165,
+        "val_loss": 1.12784,
+        "val_acc": 0.6305,
+        "val_f1_macro": 0.6065,
+        "val_f1_weighted": 0.6361
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.18466,
+        "val_loss": 1.42691,
+        "val_acc": 0.6098,
+        "val_f1_macro": 0.5554,
+        "val_f1_weighted": 0.6019
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.09854,
+        "val_loss": 1.45324,
+        "val_acc": 0.6305,
+        "val_f1_macro": 0.592,
+        "val_f1_weighted": 0.6312
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.06566,
+        "val_loss": 1.59567,
+        "val_acc": 0.6305,
+        "val_f1_macro": 0.5944,
+        "val_f1_weighted": 0.6318
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.04989,
+        "val_loss": 1.67245,
+        "val_acc": 0.6434,
+        "val_f1_macro": 0.6077,
+        "val_f1_weighted": 0.644
+      }
+    ],
+    "elapsed_seconds": 167.8,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "macbert",
+    "hf_id": "hfl/chinese-macbert-base",
+    "fold": 0,
+    "lr": 3e-05,
+    "epochs": 10,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.5909,
+    "val_acc": 0.6486,
+    "val_f1_weighted": 0.641,
+    "per_class_f1": {
+      "type0_game": 0.7399,
+      "type1_emotional": 0.4576,
+      "type2_political": 0.7239,
+      "type3_nationalist": 0.4615,
+      "type4_neutral": 0.5714
+    },
+    "confusion_matrix": [
+      [
+        64,
+        13,
+        7,
+        0,
+        4
+      ],
+      [
+        13,
+        27,
+        15,
+        1,
+        7
+      ],
+      [
+        5,
+        10,
+        118,
+        9,
+        6
+      ],
+      [
+        0,
+        2,
+        16,
+        12,
+        0
+      ],
+      [
+        3,
+        3,
+        22,
+        0,
+        30
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.51643,
+        "val_loss": 1.1828,
+        "val_acc": 0.4755,
+        "val_f1_macro": 0.4248,
+        "val_f1_weighted": 0.4412
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.04124,
+        "val_loss": 0.92438,
+        "val_acc": 0.6202,
+        "val_f1_macro": 0.5687,
+        "val_f1_weighted": 0.6144
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.64146,
+        "val_loss": 1.00301,
+        "val_acc": 0.6021,
+        "val_f1_macro": 0.5641,
+        "val_f1_weighted": 0.6011
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.35712,
+        "val_loss": 1.15572,
+        "val_acc": 0.5866,
+        "val_f1_macro": 0.5581,
+        "val_f1_weighted": 0.5948
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.19228,
+        "val_loss": 1.33345,
+        "val_acc": 0.6227,
+        "val_f1_macro": 0.5727,
+        "val_f1_weighted": 0.6186
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.09086,
+        "val_loss": 1.69925,
+        "val_acc": 0.6382,
+        "val_f1_macro": 0.5791,
+        "val_f1_weighted": 0.6302
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.05773,
+        "val_loss": 1.93207,
+        "val_acc": 0.6305,
+        "val_f1_macro": 0.5709,
+        "val_f1_weighted": 0.622
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.04324,
+        "val_loss": 2.03383,
+        "val_acc": 0.6305,
+        "val_f1_macro": 0.5649,
+        "val_f1_weighted": 0.6171
+      },
+      {
+        "epoch": 9,
+        "train_loss": 0.03461,
+        "val_loss": 2.0031,
+        "val_acc": 0.6486,
+        "val_f1_macro": 0.5909,
+        "val_f1_weighted": 0.641
+      },
+      {
+        "epoch": 10,
+        "train_loss": 0.02858,
+        "val_loss": 2.03801,
+        "val_acc": 0.6434,
+        "val_f1_macro": 0.5823,
+        "val_f1_weighted": 0.6341
+      }
+    ],
+    "elapsed_seconds": 209.9,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "macbert",
+    "hf_id": "hfl/chinese-macbert-base",
+    "fold": 0,
+    "lr": 5e-05,
+    "epochs": 3,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.615,
+    "val_acc": 0.6512,
+    "val_f1_weighted": 0.6512,
+    "per_class_f1": {
+      "type0_game": 0.7629,
+      "type1_emotional": 0.521,
+      "type2_political": 0.6909,
+      "type3_nationalist": 0.5,
+      "type4_neutral": 0.6
+    },
+    "confusion_matrix": [
+      [
+        74,
+        8,
+        2,
+        1,
+        3
+      ],
+      [
+        17,
+        31,
+        5,
+        3,
+        7
+      ],
+      [
+        11,
+        11,
+        95,
+        22,
+        9
+      ],
+      [
+        0,
+        2,
+        9,
+        19,
+        0
+      ],
+      [
+        4,
+        4,
+        16,
+        1,
+        33
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.40928,
+        "val_loss": 1.11563,
+        "val_acc": 0.522,
+        "val_f1_macro": 0.4847,
+        "val_f1_weighted": 0.5303
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.90997,
+        "val_loss": 0.95557,
+        "val_acc": 0.6124,
+        "val_f1_macro": 0.5727,
+        "val_f1_weighted": 0.6214
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.51415,
+        "val_loss": 0.92222,
+        "val_acc": 0.6512,
+        "val_f1_macro": 0.615,
+        "val_f1_weighted": 0.6512
+      }
+    ],
+    "elapsed_seconds": 63.3,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "macbert",
+    "hf_id": "hfl/chinese-macbert-base",
+    "fold": 0,
+    "lr": 5e-05,
+    "epochs": 5,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.6001,
+    "val_acc": 0.646,
+    "val_f1_weighted": 0.6417,
+    "per_class_f1": {
+      "type0_game": 0.791,
+      "type1_emotional": 0.4444,
+      "type2_political": 0.6801,
+      "type3_nationalist": 0.459,
+      "type4_neutral": 0.626
+    },
+    "confusion_matrix": [
+      [
+        70,
+        9,
+        5,
+        0,
+        4
+      ],
+      [
+        10,
+        24,
+        17,
+        2,
+        10
+      ],
+      [
+        7,
+        8,
+        101,
+        15,
+        17
+      ],
+      [
+        0,
+        1,
+        14,
+        14,
+        1
+      ],
+      [
+        2,
+        3,
+        12,
+        0,
+        41
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.4178,
+        "val_loss": 1.07847,
+        "val_acc": 0.4858,
+        "val_f1_macro": 0.4806,
+        "val_f1_weighted": 0.4956
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.94605,
+        "val_loss": 0.99015,
+        "val_acc": 0.5633,
+        "val_f1_macro": 0.562,
+        "val_f1_weighted": 0.5789
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.51969,
+        "val_loss": 1.02071,
+        "val_acc": 0.6279,
+        "val_f1_macro": 0.5891,
+        "val_f1_weighted": 0.6297
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.22926,
+        "val_loss": 1.25778,
+        "val_acc": 0.646,
+        "val_f1_macro": 0.6001,
+        "val_f1_weighted": 0.6417
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.10432,
+        "val_loss": 1.41996,
+        "val_acc": 0.6486,
+        "val_f1_macro": 0.5952,
+        "val_f1_weighted": 0.6435
+      }
+    ],
+    "elapsed_seconds": 105.4,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "macbert",
+    "hf_id": "hfl/chinese-macbert-base",
+    "fold": 0,
+    "lr": 5e-05,
+    "epochs": 8,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.5827,
+    "val_acc": 0.6331,
+    "val_f1_weighted": 0.63,
+    "per_class_f1": {
+      "type0_game": 0.6941,
+      "type1_emotional": 0.4667,
+      "type2_political": 0.711,
+      "type3_nationalist": 0.44,
+      "type4_neutral": 0.6015
+    },
+    "confusion_matrix": [
+      [
+        59,
+        14,
+        7,
+        0,
+        8
+      ],
+      [
+        12,
+        28,
+        10,
+        1,
+        12
+      ],
+      [
+        8,
+        12,
+        107,
+        8,
+        13
+      ],
+      [
+        1,
+        2,
+        14,
+        11,
+        2
+      ],
+      [
+        2,
+        1,
+        15,
+        0,
+        40
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.48285,
+        "val_loss": 1.10092,
+        "val_acc": 0.5788,
+        "val_f1_macro": 0.5428,
+        "val_f1_weighted": 0.5842
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.02603,
+        "val_loss": 0.92578,
+        "val_acc": 0.5375,
+        "val_f1_macro": 0.5263,
+        "val_f1_weighted": 0.5244
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.58184,
+        "val_loss": 1.13957,
+        "val_acc": 0.6124,
+        "val_f1_macro": 0.5825,
+        "val_f1_weighted": 0.6146
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.30912,
+        "val_loss": 1.3229,
+        "val_acc": 0.6331,
+        "val_f1_macro": 0.5827,
+        "val_f1_weighted": 0.63
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.13758,
+        "val_loss": 1.69334,
+        "val_acc": 0.6279,
+        "val_f1_macro": 0.5617,
+        "val_f1_weighted": 0.6177
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.0834,
+        "val_loss": 1.87136,
+        "val_acc": 0.5995,
+        "val_f1_macro": 0.5418,
+        "val_f1_weighted": 0.5957
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.0615,
+        "val_loss": 2.11645,
+        "val_acc": 0.6305,
+        "val_f1_macro": 0.5721,
+        "val_f1_weighted": 0.6225
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.03721,
+        "val_loss": 2.08418,
+        "val_acc": 0.6331,
+        "val_f1_macro": 0.5693,
+        "val_f1_weighted": 0.6223
+      }
+    ],
+    "elapsed_seconds": 168.4,
+    "n_train": 1544,
+    "n_val": 387
+  },
+  {
+    "model": "macbert",
+    "hf_id": "hfl/chinese-macbert-base",
+    "fold": 0,
+    "lr": 5e-05,
+    "epochs": 10,
+    "batch_size": 16,
+    "max_len": 128,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "freeze_layers": 0,
+    "use_class_weight": true,
+    "best_val_f1_macro": 0.6009,
+    "val_acc": 0.6589,
+    "val_f1_weighted": 0.6531,
+    "per_class_f1": {
+      "type0_game": 0.7416,
+      "type1_emotional": 0.5203,
+      "type2_political": 0.7319,
+      "type3_nationalist": 0.4364,
+      "type4_neutral": 0.5743
+    },
+    "confusion_matrix": [
+      [
+        66,
+        14,
+        6,
+        0,
+        2
+      ],
+      [
+        13,
+        32,
+        12,
+        1,
+        5
+      ],
+      [
+        8,
+        8,
+        116,
+        10,
+        6
+      ],
+      [
+        0,
+        1,
+        16,
+        12,
+        1
+      ],
+      [
+        3,
+        5,
+        19,
+        2,
+        29
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.50427,
+        "val_loss": 1.31456,
+        "val_acc": 0.5504,
+        "val_f1_macro": 0.3662,
+        "val_f1_weighted": 0.4809
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.10406,
+        "val_loss": 1.05299,
+        "val_acc": 0.5271,
+        "val_f1_macro": 0.5136,
+        "val_f1_weighted": 0.5431
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.66377,
+        "val_loss": 1.02403,
+        "val_acc": 0.5685,
+        "val_f1_macro": 0.5556,
+        "val_f1_weighted": 0.5755
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.37605,
+        "val_loss": 1.17726,
+        "val_acc": 0.646,
+        "val_f1_macro": 0.597,
+        "val_f1_weighted": 0.6457
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.15195,
+        "val_loss": 1.53857,
+        "val_acc": 0.615,
+        "val_f1_macro": 0.5674,
+        "val_f1_weighted": 0.6125
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.09696,
+        "val_loss": 2.0903,
+        "val_acc": 0.6072,
+        "val_f1_macro": 0.5341,
+        "val_f1_weighted": 0.5863
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.0636,
+        "val_loss": 2.06914,
+        "val_acc": 0.6227,
+        "val_f1_macro": 0.5674,
+        "val_f1_weighted": 0.6128
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.04737,
+        "val_loss": 2.16348,
+        "val_acc": 0.6382,
+        "val_f1_macro": 0.5703,
+        "val_f1_weighted": 0.6276
+      },
+      {
+        "epoch": 9,
+        "train_loss": 0.03534,
+        "val_loss": 2.07723,
+        "val_acc": 0.6512,
+        "val_f1_macro": 0.5884,
+        "val_f1_weighted": 0.6433
+      },
+      {
+        "epoch": 10,
+        "train_loss": 0.02664,
+        "val_loss": 2.06253,
+        "val_acc": 0.6589,
+        "val_f1_macro": 0.6009,
+        "val_f1_weighted": 0.6531
+      }
+    ],
+    "elapsed_seconds": 209.7,
+    "n_train": 1544,
+    "n_val": 387
+  }
+]

@@ -1,0 +1,90 @@
+=== OLS 回归结果（因变量: log(1+likes_capped), HC3 稳健标准误）===
+
+--- 模型1：is_nationalist ---
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              log_likes   R-squared:                       0.008
+Model:                            OLS   Adj. R-squared:                  0.008
+Method:                 Least Squares   F-statistic:                     262.7
+Date:                Wed, 18 Mar 2026   Prob (F-statistic):           7.75e-59
+Time:                        22:15:42   Log-Likelihood:                -63484.
+No. Observations:               30000   AIC:                         1.270e+05
+Df Residuals:                   29998   BIC:                         1.270e+05
+Df Model:                           1                                         
+Covariance Type:                  HC3                                         
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+Intercept          1.8155      0.012    146.849      0.000       1.791       1.840
+is_nationalist     0.5738      0.035     16.209      0.000       0.504       0.643
+==============================================================================
+Omnibus:                     4217.116   Durbin-Watson:                   0.095
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             6259.332
+Skew:                           1.110   Prob(JB):                         0.00
+Kurtosis:                       3.276   Cond. No.                         3.26
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+--- 模型2：C(discourse_type) ---
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              log_likes   R-squared:                       0.034
+Model:                            OLS   Adj. R-squared:                  0.034
+Method:                 Least Squares   F-statistic:                     250.3
+Date:                Wed, 18 Mar 2026   Prob (F-statistic):          7.09e-212
+Time:                        22:15:42   Log-Likelihood:                -63083.
+No. Observations:               30000   AIC:                         1.262e+05
+Df Residuals:                   29995   BIC:                         1.262e+05
+Df Model:                           4                                         
+Covariance Type:                  HC3                                         
+============================================================================================================
+                                               coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------------
+Intercept                                    1.5661      0.017     93.690      0.000       1.533       1.599
+C(dt_str, Treatment(reference='0'))[T.1]     0.2785      0.027     10.317      0.000       0.226       0.331
+C(dt_str, Treatment(reference='0'))[T.2]     0.8696      0.041     21.361      0.000       0.790       0.949
+C(dt_str, Treatment(reference='0'))[T.3]     0.6280      0.075      8.340      0.000       0.480       0.776
+C(dt_str, Treatment(reference='0'))[T.4]     0.9589      0.036     26.525      0.000       0.888       1.030
+==============================================================================
+Omnibus:                     4308.652   Durbin-Watson:                   0.140
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             6420.857
+Skew:                           1.117   Prob(JB):                         0.00
+Kurtosis:                       3.378   Cond. No.                         7.54
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+--- 模型3：C(discourse_type) + post_hour + is_weekend ---
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              log_likes   R-squared:                       0.035
+Model:                            OLS   Adj. R-squared:                  0.035
+Method:                 Least Squares   F-statistic:                     175.1
+Date:                Wed, 18 Mar 2026   Prob (F-statistic):          8.07e-220
+Time:                        22:15:42   Log-Likelihood:                -63062.
+No. Observations:               30000   AIC:                         1.261e+05
+Df Residuals:                   29993   BIC:                         1.262e+05
+Df Model:                           6                                         
+Covariance Type:                  HC3                                         
+============================================================================================================
+                                               coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------------
+Intercept                                    1.6056      0.027     60.245      0.000       1.553       1.658
+C(dt_str, Treatment(reference='0'))[T.1]     0.2783      0.027     10.314      0.000       0.225       0.331
+C(dt_str, Treatment(reference='0'))[T.2]     0.8695      0.041     21.392      0.000       0.790       0.949
+C(dt_str, Treatment(reference='0'))[T.3]     0.6183      0.075      8.221      0.000       0.471       0.766
+C(dt_str, Treatment(reference='0'))[T.4]     0.9580      0.036     26.517      0.000       0.887       1.029
+post_hour                                    0.0007      0.002      0.373      0.709      -0.003       0.004
+is_weekend                                  -0.1679      0.025     -6.766      0.000      -0.217      -0.119
+==============================================================================
+Omnibus:                     4281.107   Durbin-Watson:                   0.143
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             6365.711
+Skew:                           1.113   Prob(JB):                         0.00
+Kurtosis:                       3.370   Cond. No.                         84.1
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)

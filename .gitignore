@@ -16,6 +16,9 @@ __pycache__/
 .env.local
 *.env
 
+# SBERT 向量输出（体积大）
+embeddings/
+
 # 爬虫生成的数据与缓存（按需保留或忽略）
 data/
 *.csv
@@ -28,3 +31,26 @@ MediaCrawler-main/MediaCrawler-main/data/
 *.swp
 .DS_Store
 Thumbs.db
+
+# 账号凭据（本地保留，勿跟踪）
+bilibili_cookie.txt
+
+# AI 工作区与本地工作文件（不入库）
+.claude/
+archive/cogs181_course/REPORT_PROMPT.md
+
+# 投稿回执与评审材料（含个人信息，不公开）
+Document/AEJMC_RIP/reviewer_feedback/
+
+# 原始爬取数据与衍生大文件（伦理与体积：公开库只放代码与聚合产物）
+00_output/
+01_data/
+*.parquet
+*.csv.bak
+*.mp3
+*.m4a
+*.m4a.part
+
+# 微调模型权重（>100MB，超 GitHub 限制；可由 src/finetune 重训）
+results/finetune/best_model/
+results/finetune/roberta_fold0/

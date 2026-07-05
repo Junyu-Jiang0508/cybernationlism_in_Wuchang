@@ -1,0 +1,1281 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{bail2018}{article}{}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=47526fc1b7d909a8b8b705ffa6e2c09b}{%
+           family={Bail},
+           familyi={B\bibinitperiod},
+           given={Christopher\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a9f2664192dc7787298765ed812cd79}{%
+           family={Argyle},
+           familyi={A\bibinitperiod},
+           given={Lisa\bibnamedelima P.},
+           giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2f72c346f1148c9f51b24f9aa6d23efc}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Taylor\bibnamedelima W.},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ebcaed3402908be71145106a85ce987}{%
+           family={Bumpus},
+           familyi={B\bibinitperiod},
+           given={John\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c1e52ab8b68a53a874b9a8612bd981b}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Haohan},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f040ae871438971acbd83c4d5c78671a}{%
+           family={Hunzaker},
+           familyi={H\bibinitperiod},
+           given={M.\bibnamedelimi B.\bibnamedelimi Fallin},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=552d44f38ad01afa6b5edb874e2bd956}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jaemin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c061859ce433386e6e5c56360a48d94}{%
+           family={Mann},
+           familyi={M\bibinitperiod},
+           given={Marcus},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05ba89f6918432817bcfdfa4ce29b3c5}{%
+           family={Merhout},
+           familyi={M\bibinitperiod},
+           given={Friedolin},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=32f985746191d1b95ac58eccba2ab9d1}{%
+           family={Volfovsky},
+           familyi={V\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f608bf8ad03a25cba5ba295268575ec6}
+      \strng{fullhash}{457218725b2458ad9422959729f0b22a}
+      \strng{fullhashraw}{457218725b2458ad9422959729f0b22a}
+      \strng{bibnamehash}{457218725b2458ad9422959729f0b22a}
+      \strng{authorbibnamehash}{457218725b2458ad9422959729f0b22a}
+      \strng{authornamehash}{f608bf8ad03a25cba5ba295268575ec6}
+      \strng{authorfullhash}{457218725b2458ad9422959729f0b22a}
+      \strng{authorfullhashraw}{457218725b2458ad9422959729f0b22a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{37}
+      \field{title}{Exposure to Opposing Views on Social Media Can Increase Political Polarization}
+      \field{volume}{115}
+      \field{year}{2018}
+      \field{pages}{9216\bibrangedash 9221}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/pnas.1804840115
+      \endverb
+    \endentry
+    \entry{cui2020macbert}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=bd5f28106f9c802314f709cbf76b35f3}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Yiming},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb0803882fba28a6c7ecb519069a89de}{%
+           family={Che},
+           familyi={C\bibinitperiod},
+           given={Wanxiang},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=df4100f4c9320162410d3ddcc9257d55}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Ting},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1b651c40ade9404b1c43c1786d1a7466}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Bing},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e4c8f237a7456305bbab539bac961243}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Ziqing},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{8cf9e200a7584a5364f4e791555b88ea}
+      \strng{fullhash}{0140e0adcd659a0d77ebf1f19a9b7247}
+      \strng{fullhashraw}{0140e0adcd659a0d77ebf1f19a9b7247}
+      \strng{bibnamehash}{0140e0adcd659a0d77ebf1f19a9b7247}
+      \strng{authorbibnamehash}{0140e0adcd659a0d77ebf1f19a9b7247}
+      \strng{authornamehash}{8cf9e200a7584a5364f4e791555b88ea}
+      \strng{authorfullhash}{0140e0adcd659a0d77ebf1f19a9b7247}
+      \strng{authorfullhashraw}{0140e0adcd659a0d77ebf1f19a9b7247}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Findings of the Association for Computational Linguistics: EMNLP 2020}
+      \field{title}{Revisiting Pre-Trained Models for Chinese Natural Language Processing}
+      \field{year}{2020}
+      \field{pages}{657\bibrangedash 668}
+      \range{pages}{12}
+    \endentry
+    \entry{gilardi2023}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=42a4e15ad87c60bc88a71df1348bd4e2}{%
+           family={Gilardi},
+           familyi={G\bibinitperiod},
+           given={Fabrizio},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=56ea0634b107a7ddd6896367aef2ada5}{%
+           family={Alizadeh},
+           familyi={A\bibinitperiod},
+           given={Meysam},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e52669eb7da2e5579871c93f8c8129b}{%
+           family={Kubli},
+           familyi={K\bibinitperiod},
+           given={Maël},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ca303398eb5efdf788d5bf1f44bee484}
+      \strng{fullhash}{0cb15cf82c954c430d43b8c515e70bbd}
+      \strng{fullhashraw}{0cb15cf82c954c430d43b8c515e70bbd}
+      \strng{bibnamehash}{0cb15cf82c954c430d43b8c515e70bbd}
+      \strng{authorbibnamehash}{0cb15cf82c954c430d43b8c515e70bbd}
+      \strng{authornamehash}{ca303398eb5efdf788d5bf1f44bee484}
+      \strng{authorfullhash}{0cb15cf82c954c430d43b8c515e70bbd}
+      \strng{authorfullhashraw}{0cb15cf82c954c430d43b8c515e70bbd}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{30}
+      \field{title}{{ChatGPT} Outperforms Crowd Workers for Text-Annotation Tasks}
+      \field{volume}{120}
+      \field{year}{2023}
+      \field{pages}{e2305016120}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1073/pnas.2305016120
+      \endverb
+    \endentry
+    \entry{gillespie2018}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ce36d4965a00d6cc54683c17c8f2101e}{%
+           family={Gillespie},
+           familyi={G\bibinitperiod},
+           given={Tarleton},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Yale University Press}%
+      }
+      \strng{namehash}{ce36d4965a00d6cc54683c17c8f2101e}
+      \strng{fullhash}{ce36d4965a00d6cc54683c17c8f2101e}
+      \strng{fullhashraw}{ce36d4965a00d6cc54683c17c8f2101e}
+      \strng{bibnamehash}{ce36d4965a00d6cc54683c17c8f2101e}
+      \strng{authorbibnamehash}{ce36d4965a00d6cc54683c17c8f2101e}
+      \strng{authornamehash}{ce36d4965a00d6cc54683c17c8f2101e}
+      \strng{authorfullhash}{ce36d4965a00d6cc54683c17c8f2101e}
+      \strng{authorfullhashraw}{ce36d4965a00d6cc54683c17c8f2101e}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Custodians of the Internet: Platforms, Content Moderation, and the Hidden Decisions That Shape Social Media}
+      \field{year}{2018}
+    \endentry
+    \entry{hall1996}{book}{}{}
+      \name{editor}{2}{}{%
+        {{un=0,uniquepart=base,hash=3ebfef3a72f8b555e6385b184e0bf40f}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c4433e04595a71cbbb53ac50ed9a4fda}{%
+           family={Du\bibnamedelima Gay},
+           familyi={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Sage Publications}%
+      }
+      \strng{namehash}{559ee17e98d4cfa1292b6a61a65fa0ce}
+      \strng{fullhash}{559ee17e98d4cfa1292b6a61a65fa0ce}
+      \strng{fullhashraw}{559ee17e98d4cfa1292b6a61a65fa0ce}
+      \strng{bibnamehash}{559ee17e98d4cfa1292b6a61a65fa0ce}
+      \strng{editorbibnamehash}{559ee17e98d4cfa1292b6a61a65fa0ce}
+      \strng{editornamehash}{559ee17e98d4cfa1292b6a61a65fa0ce}
+      \strng{editorfullhash}{559ee17e98d4cfa1292b6a61a65fa0ce}
+      \strng{editorfullhashraw}{559ee17e98d4cfa1292b6a61a65fa0ce}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Questions of Cultural Identity}
+      \field{year}{1996}
+    \endentry
+    \entry{king2013}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=e62a3c431989b28a48ea18aa5cfcfbed}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2594ce3e567ef750dba39f69b3ced277}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca08ae29f1298af10aa6e11f92b01aae}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Margaret\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bbe58ba46a4c96bd6f0396dc9aec81c2}
+      \strng{fullhash}{77747f51045a52db6a65b10fe93c5d24}
+      \strng{fullhashraw}{77747f51045a52db6a65b10fe93c5d24}
+      \strng{bibnamehash}{77747f51045a52db6a65b10fe93c5d24}
+      \strng{authorbibnamehash}{77747f51045a52db6a65b10fe93c5d24}
+      \strng{authornamehash}{bbe58ba46a4c96bd6f0396dc9aec81c2}
+      \strng{authorfullhash}{77747f51045a52db6a65b10fe93c5d24}
+      \strng{authorfullhashraw}{77747f51045a52db6a65b10fe93c5d24}
+      \field{extraname}{1}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Political Science Review}
+      \field{number}{2}
+      \field{title}{How Censorship in {China} Allows Government Criticism but Silences Collective Expression}
+      \field{volume}{107}
+      \field{year}{2013}
+      \field{pages}{326\bibrangedash 343}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1017/S0003055413000014
+      \endverb
+    \endentry
+    \entry{king2017}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=e62a3c431989b28a48ea18aa5cfcfbed}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2594ce3e567ef750dba39f69b3ced277}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca08ae29f1298af10aa6e11f92b01aae}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Margaret\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bbe58ba46a4c96bd6f0396dc9aec81c2}
+      \strng{fullhash}{77747f51045a52db6a65b10fe93c5d24}
+      \strng{fullhashraw}{77747f51045a52db6a65b10fe93c5d24}
+      \strng{bibnamehash}{77747f51045a52db6a65b10fe93c5d24}
+      \strng{authorbibnamehash}{77747f51045a52db6a65b10fe93c5d24}
+      \strng{authornamehash}{bbe58ba46a4c96bd6f0396dc9aec81c2}
+      \strng{authorfullhash}{77747f51045a52db6a65b10fe93c5d24}
+      \strng{authorfullhashraw}{77747f51045a52db6a65b10fe93c5d24}
+      \field{extraname}{2}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Political Science Review}
+      \field{number}{3}
+      \field{title}{{How the Chinese Government Fabricates Social Media Posts for Strategic Distraction, Not Engaged Argument}}
+      \field{volume}{111}
+      \field{year}{2017}
+      \field{pages}{484\bibrangedash 501}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1017/S0003055417000144
+      \endverb
+    \endentry
+    \entry{papacharissi2015}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=44496738a467689f4b6a9df242d5bad8}{%
+           family={Papacharissi},
+           familyi={P\bibinitperiod},
+           given={Zizi},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{44496738a467689f4b6a9df242d5bad8}
+      \strng{fullhash}{44496738a467689f4b6a9df242d5bad8}
+      \strng{fullhashraw}{44496738a467689f4b6a9df242d5bad8}
+      \strng{bibnamehash}{44496738a467689f4b6a9df242d5bad8}
+      \strng{authorbibnamehash}{44496738a467689f4b6a9df242d5bad8}
+      \strng{authornamehash}{44496738a467689f4b6a9df242d5bad8}
+      \strng{authorfullhash}{44496738a467689f4b6a9df242d5bad8}
+      \strng{authorfullhashraw}{44496738a467689f4b6a9df242d5bad8}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Affective Publics: Sentiment, Technology, and Politics}
+      \field{year}{2015}
+    \endentry
+    \entry{repnikova2018}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0b49cf52b3853452c2ac378fb88e2774}{%
+           family={Repnikova},
+           familyi={R\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cbca8ce71fb2ef8765108e42f003462e}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Kecheng},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fef9de1816bafb7a9797c5234b6a772d}
+      \strng{fullhash}{fef9de1816bafb7a9797c5234b6a772d}
+      \strng{fullhashraw}{fef9de1816bafb7a9797c5234b6a772d}
+      \strng{bibnamehash}{fef9de1816bafb7a9797c5234b6a772d}
+      \strng{authorbibnamehash}{fef9de1816bafb7a9797c5234b6a772d}
+      \strng{authornamehash}{fef9de1816bafb7a9797c5234b6a772d}
+      \strng{authorfullhash}{fef9de1816bafb7a9797c5234b6a772d}
+      \strng{authorfullhashraw}{fef9de1816bafb7a9797c5234b6a772d}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Contemporary China}
+      \field{number}{113}
+      \field{title}{Authoritarian Participatory Persuasion 2.0: Netizens as Thought Work Collaborators in China}
+      \field{volume}{27}
+      \field{year}{2018}
+      \field{pages}{763\bibrangedash 779}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1080/10670564.2018.1458063
+      \endverb
+    \endentry
+    \entry{schneider2018}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bf61b3b393feb3dbd020084f7d8c586e}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{bf61b3b393feb3dbd020084f7d8c586e}
+      \strng{fullhash}{bf61b3b393feb3dbd020084f7d8c586e}
+      \strng{fullhashraw}{bf61b3b393feb3dbd020084f7d8c586e}
+      \strng{bibnamehash}{bf61b3b393feb3dbd020084f7d8c586e}
+      \strng{authorbibnamehash}{bf61b3b393feb3dbd020084f7d8c586e}
+      \strng{authornamehash}{bf61b3b393feb3dbd020084f7d8c586e}
+      \strng{authorfullhash}{bf61b3b393feb3dbd020084f7d8c586e}
+      \strng{authorfullhashraw}{bf61b3b393feb3dbd020084f7d8c586e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{China's Digital Nationalism}
+      \field{year}{2018}
+    \endentry
+    \entry{swidler1986}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=85f3506769f85e79862555eaea4d2247}{%
+           family={Swidler},
+           familyi={S\bibinitperiod},
+           given={Ann},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{85f3506769f85e79862555eaea4d2247}
+      \strng{fullhash}{85f3506769f85e79862555eaea4d2247}
+      \strng{fullhashraw}{85f3506769f85e79862555eaea4d2247}
+      \strng{bibnamehash}{85f3506769f85e79862555eaea4d2247}
+      \strng{authorbibnamehash}{85f3506769f85e79862555eaea4d2247}
+      \strng{authornamehash}{85f3506769f85e79862555eaea4d2247}
+      \strng{authorfullhash}{85f3506769f85e79862555eaea4d2247}
+      \strng{authorfullhashraw}{85f3506769f85e79862555eaea4d2247}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Sociological Review}
+      \field{number}{2}
+      \field{title}{Culture in Action: Symbols and Strategies}
+      \field{volume}{51}
+      \field{year}{1986}
+      \field{pages}{273\bibrangedash 286}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.2307/2095521
+      \endverb
+    \endentry
+    \entry{tan2024llm}{article}{}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=17515f63625800f2773fab3bf6191979}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Zhen},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d347014590ab2d9450a92400b1f5f00}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Dawei},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d19e678c72662459bbdb25f3e207dee}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Song},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=24e65a0f74979aa4b4ce869ea71b1ee0}{%
+           family={Beigi},
+           familyi={B\bibinitperiod},
+           given={Alimohammad},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=376b731a32f843d096cd5379a7ce59a7}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Bohan},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea5cd545d74ff6befc0d6a6131e8a4f3}{%
+           family={Bhattacharjee},
+           familyi={B\bibinitperiod},
+           given={Amrita},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d2601f16cb508aab003901714ba329af}{%
+           family={Karami},
+           familyi={K\bibinitperiod},
+           given={Mansooreh},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e65a1a296c495b084e18c6871049b59e}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jundong},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a8921b800076b49fb367230f89bc20d2}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Lu},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a83f8cd28a9f36e43dd5d017cd7fc8f4}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Huan},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Miami, FL, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{26ed4ba04e908ba7ccfbf191db66cd85}
+      \strng{fullhash}{0c28f42a052394a7f3ca2e47a6e3975e}
+      \strng{fullhashraw}{0c28f42a052394a7f3ca2e47a6e3975e}
+      \strng{bibnamehash}{0c28f42a052394a7f3ca2e47a6e3975e}
+      \strng{authorbibnamehash}{0c28f42a052394a7f3ca2e47a6e3975e}
+      \strng{authornamehash}{26ed4ba04e908ba7ccfbf191db66cd85}
+      \strng{authorfullhash}{0c28f42a052394a7f3ca2e47a6e3975e}
+      \strng{authorfullhashraw}{0c28f42a052394a7f3ca2e47a6e3975e}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing}
+      \field{title}{Large Language Models for Data Annotation and Synthesis: A Survey}
+      \field{year}{2024}
+      \field{pages}{930\bibrangedash 957}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.18653/v1/2024.emnlp-main.54
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/2024.emnlp-main.54/
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/2024.emnlp-main.54/
+      \endverb
+    \endentry
+    \entry{woolley2016}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9a2d4b5fa4b3233976a6832ea027ab09}{%
+           family={Woolley},
+           familyi={W\bibinitperiod},
+           given={Samuel\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a36ad42ed1dad20dfa5e0db1cd9b563}{%
+           family={Howard},
+           familyi={H\bibinitperiod},
+           given={Philip\bibnamedelima N.},
+           giveni={P\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{db0fb0671ca99b14d78b733d763c19dc}
+      \strng{fullhash}{db0fb0671ca99b14d78b733d763c19dc}
+      \strng{fullhashraw}{db0fb0671ca99b14d78b733d763c19dc}
+      \strng{bibnamehash}{db0fb0671ca99b14d78b733d763c19dc}
+      \strng{authorbibnamehash}{db0fb0671ca99b14d78b733d763c19dc}
+      \strng{authornamehash}{db0fb0671ca99b14d78b733d763c19dc}
+      \strng{authorfullhash}{db0fb0671ca99b14d78b733d763c19dc}
+      \strng{authorfullhashraw}{db0fb0671ca99b14d78b733d763c19dc}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Communication}
+      \field{title}{Political Communication, Computational Propaganda, and Autonomous Agents}
+      \field{volume}{10}
+      \field{year}{2016}
+      \field{pages}{4882\bibrangedash 4890}
+      \range{pages}{9}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{bail2018}{article}{}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=47526fc1b7d909a8b8b705ffa6e2c09b}{%
+           family={Bail},
+           familyi={B\bibinitperiod},
+           given={Christopher\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a9f2664192dc7787298765ed812cd79}{%
+           family={Argyle},
+           familyi={A\bibinitperiod},
+           given={Lisa\bibnamedelima P.},
+           giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2f72c346f1148c9f51b24f9aa6d23efc}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Taylor\bibnamedelima W.},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ebcaed3402908be71145106a85ce987}{%
+           family={Bumpus},
+           familyi={B\bibinitperiod},
+           given={John\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c1e52ab8b68a53a874b9a8612bd981b}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Haohan},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f040ae871438971acbd83c4d5c78671a}{%
+           family={Hunzaker},
+           familyi={H\bibinitperiod},
+           given={M.\bibnamedelimi B.\bibnamedelimi Fallin},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=552d44f38ad01afa6b5edb874e2bd956}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jaemin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c061859ce433386e6e5c56360a48d94}{%
+           family={Mann},
+           familyi={M\bibinitperiod},
+           given={Marcus},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05ba89f6918432817bcfdfa4ce29b3c5}{%
+           family={Merhout},
+           familyi={M\bibinitperiod},
+           given={Friedolin},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=32f985746191d1b95ac58eccba2ab9d1}{%
+           family={Volfovsky},
+           familyi={V\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f608bf8ad03a25cba5ba295268575ec6}
+      \strng{fullhash}{457218725b2458ad9422959729f0b22a}
+      \strng{fullhashraw}{457218725b2458ad9422959729f0b22a}
+      \strng{bibnamehash}{457218725b2458ad9422959729f0b22a}
+      \strng{authorbibnamehash}{457218725b2458ad9422959729f0b22a}
+      \strng{authornamehash}{f608bf8ad03a25cba5ba295268575ec6}
+      \strng{authorfullhash}{457218725b2458ad9422959729f0b22a}
+      \strng{authorfullhashraw}{457218725b2458ad9422959729f0b22a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{37}
+      \field{title}{Exposure to Opposing Views on Social Media Can Increase Political Polarization}
+      \field{volume}{115}
+      \field{year}{2018}
+      \field{pages}{9216\bibrangedash 9221}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/pnas.1804840115
+      \endverb
+    \endentry
+    \entry{cui2020macbert}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=bd5f28106f9c802314f709cbf76b35f3}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Yiming},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb0803882fba28a6c7ecb519069a89de}{%
+           family={Che},
+           familyi={C\bibinitperiod},
+           given={Wanxiang},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=df4100f4c9320162410d3ddcc9257d55}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Ting},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1b651c40ade9404b1c43c1786d1a7466}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Bing},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e4c8f237a7456305bbab539bac961243}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Ziqing},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{8cf9e200a7584a5364f4e791555b88ea}
+      \strng{fullhash}{0140e0adcd659a0d77ebf1f19a9b7247}
+      \strng{fullhashraw}{0140e0adcd659a0d77ebf1f19a9b7247}
+      \strng{bibnamehash}{0140e0adcd659a0d77ebf1f19a9b7247}
+      \strng{authorbibnamehash}{0140e0adcd659a0d77ebf1f19a9b7247}
+      \strng{authornamehash}{8cf9e200a7584a5364f4e791555b88ea}
+      \strng{authorfullhash}{0140e0adcd659a0d77ebf1f19a9b7247}
+      \strng{authorfullhashraw}{0140e0adcd659a0d77ebf1f19a9b7247}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Findings of the Association for Computational Linguistics: EMNLP 2020}
+      \field{title}{Revisiting Pre-Trained Models for Chinese Natural Language Processing}
+      \field{year}{2020}
+      \field{pages}{657\bibrangedash 668}
+      \range{pages}{12}
+    \endentry
+    \entry{gilardi2023}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=42a4e15ad87c60bc88a71df1348bd4e2}{%
+           family={Gilardi},
+           familyi={G\bibinitperiod},
+           given={Fabrizio},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=56ea0634b107a7ddd6896367aef2ada5}{%
+           family={Alizadeh},
+           familyi={A\bibinitperiod},
+           given={Meysam},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e52669eb7da2e5579871c93f8c8129b}{%
+           family={Kubli},
+           familyi={K\bibinitperiod},
+           given={Maël},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ca303398eb5efdf788d5bf1f44bee484}
+      \strng{fullhash}{0cb15cf82c954c430d43b8c515e70bbd}
+      \strng{fullhashraw}{0cb15cf82c954c430d43b8c515e70bbd}
+      \strng{bibnamehash}{0cb15cf82c954c430d43b8c515e70bbd}
+      \strng{authorbibnamehash}{0cb15cf82c954c430d43b8c515e70bbd}
+      \strng{authornamehash}{ca303398eb5efdf788d5bf1f44bee484}
+      \strng{authorfullhash}{0cb15cf82c954c430d43b8c515e70bbd}
+      \strng{authorfullhashraw}{0cb15cf82c954c430d43b8c515e70bbd}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{30}
+      \field{title}{{ChatGPT} Outperforms Crowd Workers for Text-Annotation Tasks}
+      \field{volume}{120}
+      \field{year}{2023}
+      \field{pages}{e2305016120}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1073/pnas.2305016120
+      \endverb
+    \endentry
+    \entry{gillespie2018}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ce36d4965a00d6cc54683c17c8f2101e}{%
+           family={Gillespie},
+           familyi={G\bibinitperiod},
+           given={Tarleton},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Yale University Press}%
+      }
+      \strng{namehash}{ce36d4965a00d6cc54683c17c8f2101e}
+      \strng{fullhash}{ce36d4965a00d6cc54683c17c8f2101e}
+      \strng{fullhashraw}{ce36d4965a00d6cc54683c17c8f2101e}
+      \strng{bibnamehash}{ce36d4965a00d6cc54683c17c8f2101e}
+      \strng{authorbibnamehash}{ce36d4965a00d6cc54683c17c8f2101e}
+      \strng{authornamehash}{ce36d4965a00d6cc54683c17c8f2101e}
+      \strng{authorfullhash}{ce36d4965a00d6cc54683c17c8f2101e}
+      \strng{authorfullhashraw}{ce36d4965a00d6cc54683c17c8f2101e}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Custodians of the Internet: Platforms, Content Moderation, and the Hidden Decisions That Shape Social Media}
+      \field{year}{2018}
+    \endentry
+    \entry{hall1996}{book}{}{}
+      \name{editor}{2}{}{%
+        {{un=0,uniquepart=base,hash=3ebfef3a72f8b555e6385b184e0bf40f}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c4433e04595a71cbbb53ac50ed9a4fda}{%
+           family={Du\bibnamedelima Gay},
+           familyi={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Sage Publications}%
+      }
+      \strng{namehash}{559ee17e98d4cfa1292b6a61a65fa0ce}
+      \strng{fullhash}{559ee17e98d4cfa1292b6a61a65fa0ce}
+      \strng{fullhashraw}{559ee17e98d4cfa1292b6a61a65fa0ce}
+      \strng{bibnamehash}{559ee17e98d4cfa1292b6a61a65fa0ce}
+      \strng{editorbibnamehash}{559ee17e98d4cfa1292b6a61a65fa0ce}
+      \strng{editornamehash}{559ee17e98d4cfa1292b6a61a65fa0ce}
+      \strng{editorfullhash}{559ee17e98d4cfa1292b6a61a65fa0ce}
+      \strng{editorfullhashraw}{559ee17e98d4cfa1292b6a61a65fa0ce}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Questions of Cultural Identity}
+      \field{year}{1996}
+    \endentry
+    \entry{king2013}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=e62a3c431989b28a48ea18aa5cfcfbed}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2594ce3e567ef750dba39f69b3ced277}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca08ae29f1298af10aa6e11f92b01aae}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Margaret\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bbe58ba46a4c96bd6f0396dc9aec81c2}
+      \strng{fullhash}{77747f51045a52db6a65b10fe93c5d24}
+      \strng{fullhashraw}{77747f51045a52db6a65b10fe93c5d24}
+      \strng{bibnamehash}{77747f51045a52db6a65b10fe93c5d24}
+      \strng{authorbibnamehash}{77747f51045a52db6a65b10fe93c5d24}
+      \strng{authornamehash}{bbe58ba46a4c96bd6f0396dc9aec81c2}
+      \strng{authorfullhash}{77747f51045a52db6a65b10fe93c5d24}
+      \strng{authorfullhashraw}{77747f51045a52db6a65b10fe93c5d24}
+      \field{extraname}{1}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Political Science Review}
+      \field{number}{2}
+      \field{title}{How Censorship in {China} Allows Government Criticism but Silences Collective Expression}
+      \field{volume}{107}
+      \field{year}{2013}
+      \field{pages}{326\bibrangedash 343}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1017/S0003055413000014
+      \endverb
+    \endentry
+    \entry{king2017}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=e62a3c431989b28a48ea18aa5cfcfbed}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2594ce3e567ef750dba39f69b3ced277}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca08ae29f1298af10aa6e11f92b01aae}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Margaret\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bbe58ba46a4c96bd6f0396dc9aec81c2}
+      \strng{fullhash}{77747f51045a52db6a65b10fe93c5d24}
+      \strng{fullhashraw}{77747f51045a52db6a65b10fe93c5d24}
+      \strng{bibnamehash}{77747f51045a52db6a65b10fe93c5d24}
+      \strng{authorbibnamehash}{77747f51045a52db6a65b10fe93c5d24}
+      \strng{authornamehash}{bbe58ba46a4c96bd6f0396dc9aec81c2}
+      \strng{authorfullhash}{77747f51045a52db6a65b10fe93c5d24}
+      \strng{authorfullhashraw}{77747f51045a52db6a65b10fe93c5d24}
+      \field{extraname}{2}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Political Science Review}
+      \field{number}{3}
+      \field{title}{{How the Chinese Government Fabricates Social Media Posts for Strategic Distraction, Not Engaged Argument}}
+      \field{volume}{111}
+      \field{year}{2017}
+      \field{pages}{484\bibrangedash 501}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1017/S0003055417000144
+      \endverb
+    \endentry
+    \entry{papacharissi2015}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=44496738a467689f4b6a9df242d5bad8}{%
+           family={Papacharissi},
+           familyi={P\bibinitperiod},
+           given={Zizi},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{44496738a467689f4b6a9df242d5bad8}
+      \strng{fullhash}{44496738a467689f4b6a9df242d5bad8}
+      \strng{fullhashraw}{44496738a467689f4b6a9df242d5bad8}
+      \strng{bibnamehash}{44496738a467689f4b6a9df242d5bad8}
+      \strng{authorbibnamehash}{44496738a467689f4b6a9df242d5bad8}
+      \strng{authornamehash}{44496738a467689f4b6a9df242d5bad8}
+      \strng{authorfullhash}{44496738a467689f4b6a9df242d5bad8}
+      \strng{authorfullhashraw}{44496738a467689f4b6a9df242d5bad8}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Affective Publics: Sentiment, Technology, and Politics}
+      \field{year}{2015}
+    \endentry
+    \entry{repnikova2018}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0b49cf52b3853452c2ac378fb88e2774}{%
+           family={Repnikova},
+           familyi={R\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cbca8ce71fb2ef8765108e42f003462e}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Kecheng},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fef9de1816bafb7a9797c5234b6a772d}
+      \strng{fullhash}{fef9de1816bafb7a9797c5234b6a772d}
+      \strng{fullhashraw}{fef9de1816bafb7a9797c5234b6a772d}
+      \strng{bibnamehash}{fef9de1816bafb7a9797c5234b6a772d}
+      \strng{authorbibnamehash}{fef9de1816bafb7a9797c5234b6a772d}
+      \strng{authornamehash}{fef9de1816bafb7a9797c5234b6a772d}
+      \strng{authorfullhash}{fef9de1816bafb7a9797c5234b6a772d}
+      \strng{authorfullhashraw}{fef9de1816bafb7a9797c5234b6a772d}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Contemporary China}
+      \field{number}{113}
+      \field{title}{Authoritarian Participatory Persuasion 2.0: Netizens as Thought Work Collaborators in China}
+      \field{volume}{27}
+      \field{year}{2018}
+      \field{pages}{763\bibrangedash 779}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1080/10670564.2018.1458063
+      \endverb
+    \endentry
+    \entry{schneider2018}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bf61b3b393feb3dbd020084f7d8c586e}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{bf61b3b393feb3dbd020084f7d8c586e}
+      \strng{fullhash}{bf61b3b393feb3dbd020084f7d8c586e}
+      \strng{fullhashraw}{bf61b3b393feb3dbd020084f7d8c586e}
+      \strng{bibnamehash}{bf61b3b393feb3dbd020084f7d8c586e}
+      \strng{authorbibnamehash}{bf61b3b393feb3dbd020084f7d8c586e}
+      \strng{authornamehash}{bf61b3b393feb3dbd020084f7d8c586e}
+      \strng{authorfullhash}{bf61b3b393feb3dbd020084f7d8c586e}
+      \strng{authorfullhashraw}{bf61b3b393feb3dbd020084f7d8c586e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{China's Digital Nationalism}
+      \field{year}{2018}
+    \endentry
+    \entry{swidler1986}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=85f3506769f85e79862555eaea4d2247}{%
+           family={Swidler},
+           familyi={S\bibinitperiod},
+           given={Ann},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{85f3506769f85e79862555eaea4d2247}
+      \strng{fullhash}{85f3506769f85e79862555eaea4d2247}
+      \strng{fullhashraw}{85f3506769f85e79862555eaea4d2247}
+      \strng{bibnamehash}{85f3506769f85e79862555eaea4d2247}
+      \strng{authorbibnamehash}{85f3506769f85e79862555eaea4d2247}
+      \strng{authornamehash}{85f3506769f85e79862555eaea4d2247}
+      \strng{authorfullhash}{85f3506769f85e79862555eaea4d2247}
+      \strng{authorfullhashraw}{85f3506769f85e79862555eaea4d2247}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Sociological Review}
+      \field{number}{2}
+      \field{title}{Culture in Action: Symbols and Strategies}
+      \field{volume}{51}
+      \field{year}{1986}
+      \field{pages}{273\bibrangedash 286}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.2307/2095521
+      \endverb
+    \endentry
+    \entry{tan2024llm}{article}{}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=17515f63625800f2773fab3bf6191979}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Zhen},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d347014590ab2d9450a92400b1f5f00}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Dawei},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d19e678c72662459bbdb25f3e207dee}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Song},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=24e65a0f74979aa4b4ce869ea71b1ee0}{%
+           family={Beigi},
+           familyi={B\bibinitperiod},
+           given={Alimohammad},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=376b731a32f843d096cd5379a7ce59a7}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Bohan},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea5cd545d74ff6befc0d6a6131e8a4f3}{%
+           family={Bhattacharjee},
+           familyi={B\bibinitperiod},
+           given={Amrita},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d2601f16cb508aab003901714ba329af}{%
+           family={Karami},
+           familyi={K\bibinitperiod},
+           given={Mansooreh},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e65a1a296c495b084e18c6871049b59e}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jundong},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a8921b800076b49fb367230f89bc20d2}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Lu},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a83f8cd28a9f36e43dd5d017cd7fc8f4}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Huan},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Miami, FL, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{26ed4ba04e908ba7ccfbf191db66cd85}
+      \strng{fullhash}{0c28f42a052394a7f3ca2e47a6e3975e}
+      \strng{fullhashraw}{0c28f42a052394a7f3ca2e47a6e3975e}
+      \strng{bibnamehash}{0c28f42a052394a7f3ca2e47a6e3975e}
+      \strng{authorbibnamehash}{0c28f42a052394a7f3ca2e47a6e3975e}
+      \strng{authornamehash}{26ed4ba04e908ba7ccfbf191db66cd85}
+      \strng{authorfullhash}{0c28f42a052394a7f3ca2e47a6e3975e}
+      \strng{authorfullhashraw}{0c28f42a052394a7f3ca2e47a6e3975e}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing}
+      \field{title}{Large Language Models for Data Annotation and Synthesis: A Survey}
+      \field{year}{2024}
+      \field{pages}{930\bibrangedash 957}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.18653/v1/2024.emnlp-main.54
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/2024.emnlp-main.54/
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/2024.emnlp-main.54/
+      \endverb
+    \endentry
+    \entry{woolley2016}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9a2d4b5fa4b3233976a6832ea027ab09}{%
+           family={Woolley},
+           familyi={W\bibinitperiod},
+           given={Samuel\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a36ad42ed1dad20dfa5e0db1cd9b563}{%
+           family={Howard},
+           familyi={H\bibinitperiod},
+           given={Philip\bibnamedelima N.},
+           giveni={P\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{db0fb0671ca99b14d78b733d763c19dc}
+      \strng{fullhash}{db0fb0671ca99b14d78b733d763c19dc}
+      \strng{fullhashraw}{db0fb0671ca99b14d78b733d763c19dc}
+      \strng{bibnamehash}{db0fb0671ca99b14d78b733d763c19dc}
+      \strng{authorbibnamehash}{db0fb0671ca99b14d78b733d763c19dc}
+      \strng{authornamehash}{db0fb0671ca99b14d78b733d763c19dc}
+      \strng{authorfullhash}{db0fb0671ca99b14d78b733d763c19dc}
+      \strng{authorfullhashraw}{db0fb0671ca99b14d78b733d763c19dc}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Communication}
+      \field{title}{Political Communication, Computational Propaganda, and Autonomous Agents}
+      \field{volume}{10}
+      \field{year}{2016}
+      \field{pages}{4882\bibrangedash 4890}
+      \range{pages}{9}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
