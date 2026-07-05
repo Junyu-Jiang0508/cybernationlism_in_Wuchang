@@ -18,7 +18,6 @@ RQ1: 民族主义话语是否表现出语义同质化与情感饱和？
   results/rq1_summary.txt
 """
 from __future__ import annotations
-import os, json
 from pathlib import Path
 from collections import Counter
 
@@ -100,7 +99,7 @@ for c in sorted(np.unique(cluster_valid)):
 
 df_cluster = pd.DataFrame(cluster_rows).sort_values("purity", ascending=False)
 df_cluster.to_csv(RESULTS / "rq1_cluster_cross.csv", index=False, encoding="utf-8-sig")
-print(f"\n  Top 5 最纯聚类:")
+print("\n  Top 5 最纯聚类:")
 for _, row in df_cluster.head(5).iterrows():
     print(f"    Cluster {int(row['cluster'])}: n={int(row['n'])}, "
           f"dominant=type{int(row['dominant_type'])}({TYPE_NAMES[int(row['dominant_type'])]}), "
@@ -187,7 +186,7 @@ df_ng.to_csv(RESULTS / "rq1_ngram_top50.csv", index=False, encoding="utf-8-sig")
 
 print(f"  民族主义评论数: {len(nationalist)}")
 print(f"  非民族主义评论数: {len(non_national)}")
-print(f"\n  Top 20 民族主义特征三字词（ratio = 在nationalist中频率/non-nationalist）:")
+print("\n  Top 20 民族主义特征三字词（ratio = 在nationalist中频率/non-nationalist）:")
 for _, row in df_ng.head(20).iterrows():
     print(f"    '{row['ngram']}': 出现{int(row['cnt_nationalist'])}次, ratio={row['ratio']:.1f}x")
 
@@ -196,7 +195,7 @@ nat_set = set(g for g, _ in tri_nat.most_common(500))
 non_set = set(g for g, _ in tri_non.most_common(500))
 overlap = len(nat_set & non_set) / len(nat_set | non_set)
 print(f"\n  Top-500 三字词 Jaccard 重叠率: {overlap:.3f}")
-print(f"  (越低说明两类评论词汇越不同，支持'民族主义话语模板化'假设)")
+print("  (越低说明两类评论词汇越不同，支持'民族主义话语模板化'假设)")
 
 
 # ── 汇总输出 ──────────────────────────────────────────────

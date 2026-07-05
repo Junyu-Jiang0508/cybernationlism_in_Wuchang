@@ -411,6 +411,45 @@ def cmd_download(args: argparse.Namespace) -> None:
         print("已下载 batch_errors.jsonl")
 
 
+def _extract_batch_annotations(
+    rec: Dict[str, Any],
+    batch_items: List[Dict[str, Any]],
+) -> Optional[Dict[str, Dict[str, Any]]]:
+    """解析单条 batch 记录；任一校验环节失败返回 None（整批视为失败）。"""
+    if rec.get("error"):
+        return None
+    resp = rec.get("response") or {}
+    if resp.get("status_code") and resp["status_code"] != 200:
+        return None
+    body = resp.get("body") or {}
+    if isinstance(body, str):
+        try:
+            body = json.loads(body)
+        except json.JSONDecodeError:
+            body = {}
+    choices = (body.get("choices") or [{}])[0]
+    content = (choices.get("message") or {}).get("content") or ""
+    try:
+        arr = extract_json_array(content)
+    except Exception:
+        return None
+    if len(arr) != len(batch_items):
+        return None
+    by_id = {str(x.get("id")): x for x in arr}
+    for item in batch_items:
+        row = by_id.get(str(item["id"]))
+        if not row or not validate_ann(row):
+            return None
+    return {
+        str(item["id"]): {
+            "discourse_type": _as_int(item["discourse_type"]),
+            "othering_intensity": _as_int(item["othering_intensity"]),
+            "affect_intensity": _as_int(item["affect_intensity"]),
+        }
+        for item in arr
+    }
+
+
 def parse_output_lines(
     lines: List[str],
     meta: Dict[str, Any],
@@ -431,59 +470,12 @@ def parse_output_lines(
             continue
         custom_id = rec.get("custom_id", "")
         batch_items = batches.get(custom_id, [])
-        exp_ids = {str(x["id"]) for x in batch_items}
-
-        if rec.get("error"):
+        parsed = _extract_batch_annotations(rec, batch_items)
+        if parsed is None:
             failed_custom.append(custom_id)
-            failed_cids.extend(list(exp_ids))
+            failed_cids.extend(str(x["id"]) for x in batch_items)
             continue
-
-        resp = rec.get("response") or {}
-        body = resp.get("body") or {}
-        if isinstance(body, str):
-            try:
-                body = json.loads(body)
-            except json.JSONDecodeError:
-                body = {}
-        if resp.get("status_code") and resp["status_code"] != 200:
-            failed_custom.append(custom_id)
-            failed_cids.extend(list(exp_ids))
-            continue
-        choices = (body.get("choices") or [{}])[0]
-        msg = (choices.get("message") or {})
-        content = msg.get("content") or ""
-        try:
-            arr = extract_json_array(content)
-        except Exception:
-            failed_custom.append(custom_id)
-            failed_cids.extend(list(exp_ids))
-            continue
-
-        if len(arr) != len(batch_items):
-            failed_custom.append(custom_id)
-            failed_cids.extend(list(exp_ids))
-            continue
-
-        ok = True
-        by_id = {str(x.get("id")): x for x in arr}
-        for item in batch_items:
-            cid = str(item["id"])
-            row = by_id.get(cid)
-            if not row or not validate_ann(row):
-                ok = False
-                break
-        if not ok:
-            failed_custom.append(custom_id)
-            failed_cids.extend(list(exp_ids))
-            continue
-
-        for item in arr:
-            cid = str(item["id"])
-            ann[cid] = {
-                "discourse_type": _as_int(item["discourse_type"]),
-                "othering_intensity": _as_int(item["othering_intensity"]),
-                "affect_intensity": _as_int(item["affect_intensity"]),
-            }
+        ann.update(parsed)
 
     return ann, list(set(failed_custom)), list(set(failed_cids))
 

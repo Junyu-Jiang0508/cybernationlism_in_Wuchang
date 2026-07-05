@@ -51,7 +51,7 @@ print(f"  > 1e9      = {(likes_raw > 1e9).sum()} 行 ← 疑似解析错误")
 # 打印极端异常行
 outliers = df[likes_raw > 1e6][["comment_id", "like_count", "pred_discourse_type"]].head(5)
 if len(outliers):
-    print(f"\n  极端异常样本（like_count > 1e6）：")
+    print("\n  极端异常样本（like_count > 1e6）：")
     print(outliers.to_string(index=False))
 
 # ── 步骤2：Winsorize → p99.5 或 10000，取较小值 ───────────

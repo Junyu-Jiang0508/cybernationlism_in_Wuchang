@@ -1,0 +1,19 @@
+[project]
+name = "wuchang-cybernationalism"
+version = "0.1.0"
+description = "Computational analysis pipeline for Chinese cyber-nationalist discourse in the WUCHANG controversy"
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+extend-exclude = ["MediaCrawler-main", "archive"]
+
+[tool.ruff.lint.per-file-ignores]
+# Crawler launchers must inject config and chdir before importing crawler modules;
+# import order is load-bearing, so E402 (import not at top) is intentional here.
+"src/crawl/02_run_zhihu_crawler.py" = ["E402"]
+"src/crawl/03_run_bilibili_crawler.py" = ["E402"]
+# Analysis scripts set warnings filters and the matplotlib backend before heavy
+# imports (filterwarnings must precede sklearn/pandas; use("Agg") must precede pyplot).
+"src/analyze/*.py" = ["E402"]

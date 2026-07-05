@@ -98,7 +98,6 @@ if os.path.isfile(_comments_csv_path):
     try:
         with open(_comments_csv_path, "r", encoding="utf-8-sig", newline="") as f:
             reader = csv_module.DictReader(f)
-            fn = reader.fieldnames or []
             for row in reader:
                 cid = row.get("comment_id")
                 if cid not in (None, ""):

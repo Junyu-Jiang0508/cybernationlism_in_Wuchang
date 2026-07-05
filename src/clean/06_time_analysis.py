@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-05_time_analysis.py
+06_time_analysis.py
 
 决策2：三段式研究窗口的操作指南（自动断点 + period 标记）
 

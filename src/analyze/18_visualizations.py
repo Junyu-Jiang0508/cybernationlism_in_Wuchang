@@ -16,7 +16,8 @@
   fig8_timeline.png             各类型占比随时间变化（月度折线图）
 """
 from __future__ import annotations
-import json, warnings
+import json
+import warnings
 warnings.filterwarnings("ignore")
 from pathlib import Path
 
@@ -28,7 +29,6 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
 import seaborn as sns
 from sklearn.manifold import TSNE
-from sklearn.metrics import confusion_matrix
 
 BASE    = Path(__file__).resolve().parents[2]
 RESULTS = BASE / "results"

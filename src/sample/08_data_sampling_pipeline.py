@@ -52,8 +52,7 @@ SEGMENT_TARGETS = {
 }
 LIKE_HIGH_THRESHOLD = 15  # 高互动：>15
 TIER_FRAC_HIGH = 0.30
-TIER_FRAC_MID = 0.30
-TIER_FRAC_LOW = 0.40
+TIER_FRAC_MID = 0.30  # 低互动层取剩余份额（约 0.40）
 
 # 视频截断：若 Top10 视频评论占比 > 50%，则每视频在 A 中上限
 VIDEO_CAP_IF_CONCENTRATED = 300
@@ -492,7 +491,7 @@ def main() -> None:
         shutil.copy2(args.input, raw_path)
         _log_line(log_buf, f"已复制 raw_cleaned.csv → {raw_path}")
     elif raw_path.exists():
-        _log_line(log_buf, f"raw_cleaned.csv 已存在，跳过复制")
+        _log_line(log_buf, "raw_cleaned.csv 已存在，跳过复制")
 
     eligible = build_eligible_a(df, log_buf, label="样本A/B基础")
     eligible_kw = annotate_keyword_hits(eligible)

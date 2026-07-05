@@ -549,7 +549,7 @@ def mode_inference(args):
     df.to_csv(out_path, index=False, encoding='utf-8-sig')
 
     print(f'\n[OK] Inference done -> {out_path}')
-    print(f'预测分布:')
+    print('预测分布:')
     print(df['pred_discourse_type'].value_counts().sort_index())
     print(f'平均置信度: {df["pred_confidence"].mean():.4f}')
 
