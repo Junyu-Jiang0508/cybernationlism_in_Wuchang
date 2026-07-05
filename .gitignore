@@ -54,3 +54,6 @@ Document/AEJMC_RIP/reviewer_feedback/
 # 微调模型权重（>100MB，超 GitHub 限制；可由 src/finetune 重训）
 results/finetune/best_model/
 results/finetune/roberta_fold0/
+
+# 研究工作文档（仅本地，不入公开库）
+docs/
