@@ -57,3 +57,10 @@ results/finetune/roberta_fold0/
 
 # 研究工作文档（仅本地，不入公开库）
 docs/
+
+# Phase 1 artifacts containing raw comment text or bulk predictions
+results/phase1/oof_chunks/
+results/phase1/sampleA_chunks/
+results/phase1/*.parquet
+results/phase1/*.npz
+results/phase2/*.csv.gz
